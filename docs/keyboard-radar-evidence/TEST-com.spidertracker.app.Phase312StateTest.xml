@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spidertracker.app.Phase312StateTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-24T21:47:51.948Z" hostname="DESKTOP-G815L" time="0.054">
+  <properties/>
+  <testcase name="dismissalAndSelectionCannotStartSearchFromTheSelectedLabel" classname="com.spidertracker.app.Phase312StateTest" time="0.044"/>
+  <testcase name="emptyAndErrorKeepQueryAndPermitRetry" classname="com.spidertracker.app.Phase312StateTest" time="0.002"/>
+  <testcase name="globalCatalogIsNotReplacedByViewportPoiCallbacks" classname="com.spidertracker.app.Phase312StateTest" time="0.001"/>
+  <testcase name="cancellationRejectsEvenAnUncooperativeStaleResult" classname="com.spidertracker.app.Phase312StateTest" time="0.003"/>
+  <testcase name="autocompleteDebouncesRequiresThreeAndDeduplicatesQueries" classname="com.spidertracker.app.Phase312StateTest" time="0.002"/>
+  <testcase name="layerNotificationsReplaceAndExpireWithoutStartupEvent" classname="com.spidertracker.app.Phase312StateTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

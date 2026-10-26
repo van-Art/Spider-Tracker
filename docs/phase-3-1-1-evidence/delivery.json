@@ -1,0 +1,59 @@
+{
+  "version": "0.3.1.1",
+  "versionCode": 4,
+  "apk": "C:\\Users\\Vahram\\Desktop\\Spider-Tracker\\dist\\spider-tracker-phase3-1-1-debug.apk",
+  "bytes": 60421170,
+  "sha256": "fc4d4e0680172685b950834f2656d89f264ba4f564771d00c0905f3c52bf082e",
+  "tests": {
+    "unit": 18,
+    "android": 27
+  },
+  "failures": 0,
+  "skips": 0,
+  "lintErrors": 0,
+  "lintWarnings": 12,
+  "preservedAssets": 14,
+  "packagedRgbaUnchanged": true,
+  "phase31ApkPreserved": true,
+  "unchangedCore": [
+    "MapRenderer.kt",
+    "MapLayers.kt",
+    "DeviceLocation.kt",
+    "AddressSearch.kt",
+    "SuppliedArt.kt"
+  ],
+  "screenshots": [
+    {
+      "path": "docs\\phase-3-1-1-screenshots\\contextual-hint.png",
+      "pixels": [
+        780,
+        1386
+      ],
+      "sha256": "0a443961012058d95bbcb897f95dcb85adb089ca2a3b760f39ff804cc66bc002"
+    },
+    {
+      "path": "docs\\phase-3-1-1-screenshots\\keyboard.png",
+      "pixels": [
+        780,
+        1386
+      ],
+      "sha256": "bfd740ab791b962653a4c9585c04b43ce6b50dac30a1e3159bd57fa7ffe289ff"
+    },
+    {
+      "path": "docs\\phase-3-1-1-screenshots\\layers-off.png",
+      "pixels": [
+        780,
+        1386
+      ],
+      "sha256": "0dcd901e7477194580cee38b8ae49f2aaf9ce04b66165eb8f55ca283f4233866"
+    },
+    {
+      "path": "docs\\phase-3-1-1-screenshots\\map.png",
+      "pixels": [
+        780,
+        1386
+      ],
+      "sha256": "bf867df56bd812e9642c74923e4e0fa30ad835a72834bad5cab68ea33d97edc4"
+    }
+  ]
+}

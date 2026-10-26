@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-25",
+  "version": "0.3.1.2-radar",
+  "versionCode": 6,
+  "unitTests": 33,
+  "androidTests": 49,
+  "failures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 13,
+  "lintHints": 1,
+  "apk": "C:\\Users\\Vahram\\Desktop\\Spider-Tracker\\dist\\spider-tracker-radar-keyboard-debug.apk",
+  "apkBytes": 60844019,
+  "apkSha256": "37b41bb88ae35e822af82c59804aea300624877e009bf09fab450ad46d4d7c85",
+  "assets": {
+    "center.png": {
+      "sourceSha256": "afba8b80cfd557523b54420fe31bd3b032569fcc718d31999df134b34f871ac0",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        24,
+        24
+      ]
+    },
+    "confirmed_sightings_button.png": {
+      "sourceSha256": "a0dcc21adf4ea5f1f4d149dccbc6d1cc8563f3880197090eb9d982ae275cc6a1",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        57,
+        43
+      ]
+    },
+    "confirmed_sightings_location.png": {
+      "sourceSha256": "44013fc45b0e730e42ceee2c84074dcdb73d83e38e6ebd3622038b64d84e11b1",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        34,
+        34
+      ]
+    },
+    "left_up_logo.png": {
+      "sourceSha256": "83fae1f7797d194ab8a278462154dcee06ae9fd0472f49fc0347b30a959f9688",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        62,
+        64
+      ]
+    },
+    "main_point_location.png": {
+      "sourceSha256": "62b0262ec40ca31aee5262a280dccb75765e4fd043e71197b6205427c6dd44e6",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        34,
+        34
+      ]
+    },
+    "off_button.png": {
+      "sourceSha256": "4e7c883dd7751c70aba4d12ef56ef8e544cde2ff2f39e569e3d8abc96ce742fb",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        57,
+        43
+      ]
+    },
+    "right_up_logo.png": {
+      "sourceSha256": "a25accf4959ee887cf1e09577f08173e1d86bdfaf3cc616c02897c082a08a24a",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    "rumored_sightings_button.png": {
+      "sourceSha256": "8b2822c3e589f02aaf308bcdb15845f718946cd9754f28893dce1cd64b5ccb79",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        57,
+        43
+      ]
+    },
+    "rumored_sightings_location.png": {
+      "sourceSha256": "d2d43c218e6089e2b0e067644f6d649f4356a7cacfe9ce1d0f10d69531d638b1",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        34,
+        34
+      ]
+    },
+    "search_bar.png": {
+      "sourceSha256": "17e06806ba8f4294a349b4e9c6b931d5a7b7e9003237eef5c941d8a314d0342b",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        527,
+        40
+      ]
+    },
+    "search_button.png": {
+      "sourceSha256": "7108868e231263846620bc5da015abc8de6692aa56ad7c73439d56d6ebdc29d9",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        54,
+        41
+      ]
+    },
+    "spider_sprite_sheet.png": {
+      "sourceSha256": "b32d0c61dc4d9434999ef718068f4f1ccb2419e9efc3b9b6f53f16d7520a9793",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        2048,
+        43
+      ]
+    },
+    "tracker_logo.png": {
+      "sourceSha256": "f8fd6f32db3928f3cc24c21f7a7643aa95194fd288a9a415c90e149222749487",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        280,
+        47
+      ]
+    },
+    "zoom_to_global.png": {
+      "sourceSha256": "858cf1ef79e57402bb54275db61e1767a7b039dff6028140b42bd5c8a6896b52",
+      "packagedRgbaIdentical": true,
+      "dimensions": [
+        24,
+        24
+      ]
+    }
+  },
+  "sourceChanges": {
+    "app\\src\\androidTest\\java\\com\\spidertracker\\app\\GeographicRadarTest.kt": {
+      "status": "added",
+      "sha256": "92487c04239f603ab9f75eaf9a622c2556104a32cc311aab75393543b659378e"
+    },
+    "app\\src\\androidTest\\java\\com\\spidertracker\\app\\TrackerInteractionTest.kt": {
+      "status": "modified",
+      "sha256": "20b44e125bdbd21c48da517560eaaa2d58a792d5840d6204c27f8dd45d0fe54f"
+    },
+    "app\\src\\main\\java\\com\\spidertracker\\app\\AddressSearch.kt": {
+      "status": "modified",
+      "sha256": "0c7b5ef9a70666e8b5eeaf24bc84476e21fd4f49a62e08e784f52fee31df48f7"
+    },
+    "app\\src\\main\\java\\com\\spidertracker\\app\\AddressSearchUi.kt": {
+      "status": "modified",
+      "sha256": "e9e39207c2bd4569b327dd5da9c35f776b69c1a093709e0d44bbb7b9200b5048"
+    },
+    "app\\src\\main\\java\\com\\spidertracker\\app\\MapLayers.kt": {
+      "status": "modified",
+      "sha256": "64602352b4c32c09d9546f56f9cbd7d22a9972510e4db66fdb9a529fd1b0046a"
+    },
+    "app\\src\\main\\java\\com\\spidertracker\\app\\RadarGeography.kt": {
+      "status": "added",
+      "sha256": "13a180b9a5ed57e97b5dda03835de268f98dc0f63b8b586b8b8ae3f97008d237"
+    },
+    "app\\src\\main\\java\\com\\spidertracker\\app\\RadarUi.kt": {
+      "status": "added",
+      "sha256": "31c4459fd6afcccd5a6752b06e1d4fd04b9a34d9f684be218e065ea92a97a517"
+    },
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerModel.kt": {
+      "status": "modified",
+      "sha256": "887be202b2e63ae6b3542244b46eabcd897573f767b301d1dce5efb4beeb6d1a"
+    },
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerScreen.kt": {
+      "status": "modified",
+      "sha256": "1df39ae5541cbe89c3b7ca847e622e13efaa3440ae976d6843ecb40bfdffb50e"
+    },
+    "app\\src\\test\\java\\com\\spidertracker\\app\\MapLayersTest.kt": {
+      "status": "modified",
+      "sha256": "7d18a98209e30f57692a43f62b295b05160d1101880b31a8003b8cd2dc9ff06f"
+    },
+    "app\\src\\test\\java\\com\\spidertracker\\app\\Phase3StateTest.kt": {
+      "status": "modified",
+      "sha256": "d07b6b34d809387c88cef90df2c9ac4f3e61b775b16978435b2e3f9cd3622a3b"
+    },
+    "app\\src\\test\\java\\com\\spidertracker\\app\\RadarGeographyTest.kt": {
+      "status": "added",
+      "sha256": "0019e1b386e92ab936a7392f0ebd5f08f7cc25ad69f4f93db89064795ca2ea91"
+    },
+    "app\\build.gradle.kts": {
+      "status": "modified",
+      "sha256": "aeb8a9536be3caa5f9d48f97dad1892b9995af8555051217a4332a1b4e334b9a"
+    },
+    "README.md": {
+      "status": "modified",
+      "sha256": "a9b339e66584d36b431df0a21d3748e95733749598a037d661d39eb7c49067a5"
+    }
+  },
+  "previousPhase312ApkPreserved": true,
+  "extraGestureNavigationTests": 2,
+  "signatureV2Verified": true,
+  "imeEvidence": {
+    "ime-gesture-landscape": {
+      "navigationMode": 2,
+      "orientation": "landscape",
+      "softwareKeyboardWithHardwareEnabledForTest": true,
+      "nativeWidthPx": 1278,
+      "nativeHeightPx": 608,
+      "mapInstanceUnchanged": true,
+      "mapBoundsBefore": "Rect.fromLTRB(54.0, 56.0, 1332.0, 664.0)",
+      "mapBoundsAfter": "Rect.fromLTRB(54.0, 56.0, 1332.0, 664.0)",
+      "cameraLat": 14.999999999999996,
+      "cameraLon": -45,
+      "zoom": 5,
+      "searchBeforeTopPx": 664,
+      "searchImeTopPx": 616,
+      "searchAfterTopPx": 664,
+      "imeBottomPx": 0,
+      "imeMode": "physical-keyboard accessory; no bottom occlusion",
+      "radarRestored": true,
+      "radarRaisedBounds": "Rect.fromLTRB(1064.0, 354.0, 1304.0, 594.0)",
+      "radarBeforeBounds": "Rect.fromLTRB(1064.0, 402.0, 1304.0, 642.0)",
+      "suggestionsBounds": "Rect.fromLTRB(96.0, 416.0, 1048.0, 608.0)"
+    },
+    "ime-gesture-portrait": {
+      "navigationMode": 2,
+      "orientation": "portrait",
+      "softwareKeyboardWithHardwareEnabledForTest": true,
+      "nativeWidthPx": 672,
+      "nativeHeightPx": 1214,
+      "mapInstanceUnchanged": true,
+      "mapBoundsBefore": "Rect.fromLTRB(54.0, 56.0, 726.0, 1270.0)",
+      "mapBoundsAfter": "Rect.fromLTRB(54.0, 56.0, 726.0, 1270.0)",
+      "cameraLat": 14.999999999999996,
+      "cameraLon": -45,
+      "zoom": 5,
+      "searchBeforeTopPx": 1270,
+      "searchImeTopPx": 1098,
+      "searchAfterTopPx": 1270,
+      "imeBottomPx": 172,
+      "imeMode": "docked software keyboard",
+      "radarRestored": true,
+      "radarRaisedBounds": "Rect.fromLTRB(491.0, 869.0, 698.0, 1076.0)",
+      "radarBeforeBounds": "Rect.fromLTRB(491.0, 1041.0, 698.0, 1248.0)",
+      "suggestionsBounds": "Rect.fromLTRB(96.0, 898.0, 475.0, 1090.0)"
+    },
+    "ime-landscape": {
+      "navigationMode": 0,
+      "orientation": "landscape",
+      "softwareKeyboardWithHardwareEnabledForTest": true,
+      "nativeWidthPx": 1182,
+      "nativeHeightPx": 608,
+      "mapInstanceUnchanged": true,
+      "mapBoundsBefore": "Rect.fromLTRB(54.0, 56.0, 1236.0, 664.0)",
+      "mapBoundsAfter": "Rect.fromLTRB(54.0, 56.0, 1236.0, 664.0)",
+      "cameraLat": 14.999999999999996,
+      "cameraLon": -45,
+      "zoom": 5,
+      "searchBeforeTopPx": 664,
+      "searchImeTopPx": 664,
+      "searchAfterTopPx": 664,
+      "imeBottomPx": 0,
+      "imeMode": "physical-keyboard accessory; no bottom occlusion",
+      "radarRestored": true,
+      "radarRaisedBounds": "Rect.fromLTRB(968.0, 402.0, 1208.0, 642.0)",
+      "radarBeforeBounds": "Rect.fromLTRB(968.0, 402.0, 1208.0, 642.0)",
+      "suggestionsBounds": "Rect.fromLTRB(96.0, 464.0, 952.0, 656.0)"
+    },
+    "ime-portrait": {
+      "navigationMode": 0,
+      "orientation": "portrait",
+      "softwareKeyboardWithHardwareEnabledForTest": true,
+      "nativeWidthPx": 672,
+      "nativeHeightPx": 1214,
+      "mapInstanceUnchanged": true,
+      "mapBoundsBefore": "Rect.fromLTRB(54.0, 56.0, 726.0, 1270.0)",
+      "mapBoundsAfter": "Rect.fromLTRB(54.0, 56.0, 726.0, 1270.0)",
+      "cameraLat": 14.999999999999996,
+      "cameraLon": -45,
+      "zoom": 5,
+      "searchBeforeTopPx": 1270,
+      "searchImeTopPx": 1050,
+      "searchAfterTopPx": 1270,
+      "imeBottomPx": 220,
+      "imeMode": "docked software keyboard",
+      "radarRestored": true,
+      "radarRaisedBounds": "Rect.fromLTRB(491.0, 821.0, 698.0, 1028.0)",
+      "radarBeforeBounds": "Rect.fromLTRB(491.0, 1041.0, 698.0, 1248.0)",
+      "suggestionsBounds": "Rect.fromLTRB(96.0, 850.0, 475.0, 1042.0)"
+    },
+    "full-gboard-portrait": {
+      "navigationMode": 0,
+      "orientation": "portrait",
+      "softwareKeyboardWithHardwareEnabledForTest": true,
+      "nativeWidthPx": 672,
+      "nativeHeightPx": 1214,
+      "mapInstanceUnchanged": true,
+      "mapBoundsBefore": "Rect.fromLTRB(54.0, 56.0, 726.0, 1270.0)",
+      "mapBoundsAfter": "Rect.fromLTRB(54.0, 56.0, 726.0, 1270.0)",
+      "cameraLat": 14.999999999999996,
+      "cameraLon": -45,
+      "zoom": 5,
+      "searchBeforeTopPx": 1270,
+      "searchImeTopPx": 672,
+      "searchAfterTopPx": 1270,
+      "imeBottomPx": 598,
+      "imeMode": "docked software keyboard",
+      "radarRestored": true,
+      "radarRaisedBounds": "Rect.fromLTRB(491.0, 443.0, 698.0, 650.0)",
+      "radarBeforeBounds": "Rect.fromLTRB(491.0, 1041.0, 698.0, 1248.0)",
+      "suggestionsBounds": "Rect.fromLTRB(96.0, 472.0, 475.0, 664.0)"
+    }
+  },
+  "livePhotonSmoke": {
+    "query": "Paris",
+    "resultsVisible": 5,
+    "selectedLabel": "Paris, Île-de-France, France",
+    "provider": "Photon live production URL",
+    "hardcodedResults": false,
+    "evidence": [
+      "live-search.xml",
+      "live-selected.xml"
+    ]
+  },
+  "deviceLocationSmoke": {
+    "provider": "AndroidLocationProvider / LocationManager",
+    "emulatorInjectedFix": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "explicitTestLabelsObserved": true,
+    "physicalSatelliteAccuracyClaimed": false
+  },
+  "extraFullSoftwareKeyboardTests": 1,
+  "historicalApksPreserved": true
+}

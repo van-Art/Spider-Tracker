@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spidertracker.app.TrackerStateTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-24T05:39:20.303Z" hostname="DESKTOP-G815L" time="0.006">
+  <properties/>
+  <testcase name="detailCloseClearsSelectionAndBackUnwindsMediaFirst" classname="com.spidertracker.app.TrackerStateTest" time="0.001"/>
+  <testcase name="explanationIsOncePerSectionAndToastReplacementIsSafe" classname="com.spidertracker.app.TrackerStateTest" time="0.0"/>
+  <testcase name="newCameraRequestSupersedesPreviousAndFixturesAreValid" classname="com.spidertracker.app.TrackerStateTest" time="0.001"/>
+  <testcase name="filtersKeepEventsAndTrailerAndLogUsesSameData" classname="com.spidertracker.app.TrackerStateTest" time="0.002"/>
+  <testcase name="savedStateRestoresFiltersPhaseAndSection" classname="com.spidertracker.app.TrackerStateTest" time="0.0"/>
+  <testcase name="layoutsFillAvailableSpaceAndRadarTargetsStaySeparate" classname="com.spidertracker.app.TrackerStateTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,1366 @@
+{
+  "generatedAtUtc": "2026-10-22T20:25:27.029788+00:00",
+  "channelThreshold": 16,
+  "warning": "Whole-screen difference is diagnostic, not a fidelity score: mock stories, original artwork/font and OSM cartography differ.",
+  "masks": {
+    "frameBands": [
+      [
+        6,
+        210,
+        15,
+        600
+      ],
+      [
+        16,
+        210,
+        25,
+        600
+      ],
+      [
+        375,
+        210,
+        384,
+        600
+      ],
+      [
+        365,
+        210,
+        374,
+        600
+      ],
+      [
+        61,
+        6,
+        105,
+        15
+      ],
+      [
+        285,
+        6,
+        328,
+        15
+      ]
+    ],
+    "frameChromeBase": [
+      0,
+      0,
+      390,
+      674
+    ],
+    "frameChromeExclusions": [
+      [
+        29,
+        29,
+        361,
+        615
+      ],
+      [
+        10,
+        11,
+        60,
+        61
+      ],
+      [
+        105,
+        16,
+        285,
+        47
+      ],
+      [
+        330,
+        14,
+        378,
+        62
+      ],
+      [
+        0,
+        140,
+        38,
+        170
+      ],
+      [
+        0,
+        174,
+        38,
+        204
+      ],
+      [
+        6,
+        615,
+        46,
+        674
+      ],
+      [
+        54,
+        633,
+        336,
+        666
+      ],
+      [
+        338,
+        633,
+        381,
+        666
+      ]
+    ],
+    "reason": "Map content and licensed/original replacement asset envelopes. Misplaced paint outside envelopes remains counted."
+  },
+  "iterations": [
+    {
+      "iteration": "iteration1",
+      "sha256": "9f8cd5236bd514cebf0566c202d13cf165d1d7ed7edc62eb32477ec2a312c9be",
+      "frameBands": {
+        "pixels": 14823,
+        "changedPixelsThreshold16": 5850,
+        "changedPercent": 39.466,
+        "meanAbsoluteChannelError": [
+          5.92,
+          13.761,
+          13.498
+        ]
+      },
+      "frameChrome": {
+        "pixels": 48354,
+        "changedPixelsThreshold16": 14885,
+        "changedPercent": 30.783,
+        "meanAbsoluteChannelError": [
+          5.62,
+          12.988,
+          14.992
+        ]
+      }
+    },
+    {
+      "iteration": "iteration2",
+      "sha256": "c4c5bd9b6f931232720a748b7727b22bac1054a1f2a7cb0687ce1d67aa68fe5f",
+      "frameBands": {
+        "pixels": 14823,
+        "changedPixelsThreshold16": 0,
+        "changedPercent": 0.0,
+        "meanAbsoluteChannelError": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "frameChrome": {
+        "pixels": 48354,
+        "changedPixelsThreshold16": 2313,
+        "changedPercent": 4.783,
+        "meanAbsoluteChannelError": [
+          1.139,
+          3.156,
+          4.135
+        ]
+      }
+    },
+    {
+      "iteration": "final",
+      "sha256": "4145a615b871a97752c910cb5390904741fd62e07d4c4a5046439ebb8dfb8dc3",
+      "frameBands": {
+        "pixels": 14823,
+        "changedPixelsThreshold16": 0,
+        "changedPercent": 0.0,
+        "meanAbsoluteChannelError": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "frameChrome": {
+        "pixels": 48354,
+        "changedPixelsThreshold16": 650,
+        "changedPercent": 1.344,
+        "meanAbsoluteChannelError": [
+          0.341,
+          0.69,
+          0.949
+        ]
+      }
+    }
+  ],
+  "captures": [
+    {
+      "state": "landscape-gallery",
+      "raw": "docs\\screenshots\\landscape-gallery-final.png",
+      "rawSha256": "a067b753477a4a09fd63a27e8bca6994b72e716fde977f84509a9593ab088cc4",
+      "rawPixels": [
+        1688,
+        780
+      ],
+      "logicalViewport": [
+        844,
+        390
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\landscape-gallery-android.png",
+      "normalizedSha256": "c96646793509a86e8597691cabb6a3994f718ffd1f78417c52c962fe20c1e51a",
+      "capturedAtUtc": "2026-10-22T20:23:48.915357+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:48.9642169Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1688x780",
+        "state": "gallery",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "landscape-map",
+      "raw": "docs\\screenshots\\landscape-map-final.png",
+      "rawSha256": "b85f11d6010ad588088b9b87b805bbdd6efd87a6628bbf1bc69b6564d7002ecf",
+      "rawPixels": [
+        1688,
+        780
+      ],
+      "logicalViewport": [
+        844,
+        390
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\landscape-map-android.png",
+      "normalizedSha256": "b5c02af457a1098f850c477a3feb4b3e47e7a0d406a0e27b477eb69840a8829f",
+      "capturedAtUtc": "2026-10-22T20:23:26.378396+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:26.4246314Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1688x780",
+        "state": "map",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\landscape-map-ready.png",
+      "referenceSha256": "5ae98911b6d75f8936b55740978e4100fb1fcd85ad6fa10a960fa9b231385895",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 133334,
+        "changedPercent": 40.507,
+        "meanAbsoluteChannelError": [
+          26.752,
+          28.082,
+          25.31
+        ]
+      }
+    },
+    {
+      "state": "landscape-menu",
+      "raw": "docs\\screenshots\\landscape-menu-final.png",
+      "rawSha256": "4f8712d307eaffeb64ad90ebfad892e78ae7ee8ee917bbf0abcd1d85036ed754",
+      "rawPixels": [
+        1688,
+        780
+      ],
+      "logicalViewport": [
+        844,
+        390
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\landscape-menu-android.png",
+      "normalizedSha256": "c72c26cd2bbe4222779a6223d748e227dba5d6af44f429851ea1d95b6c0255bf",
+      "capturedAtUtc": "2026-10-22T20:23:32.108626+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:32.1543690Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1688x780",
+        "state": "menu",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "landscape-videos",
+      "raw": "docs\\screenshots\\landscape-videos-final.png",
+      "rawSha256": "662b4e905bb88f2eae60000180836788f14df9294ad5ad3f0983b6cd234d88cd",
+      "rawPixels": [
+        1688,
+        780
+      ],
+      "logicalViewport": [
+        844,
+        390
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\landscape-videos-android.png",
+      "normalizedSha256": "d5756e7fb50874a8eba26c18fc1a10cc20ab2ae8d08c47beae0a5de907ce666f",
+      "capturedAtUtc": "2026-10-22T20:23:43.324128+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:43.3659805Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1688x780",
+        "state": "videos",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "landscape-webwatch",
+      "raw": "docs\\screenshots\\landscape-webwatch-final.png",
+      "rawSha256": "3d515a76c521770fe47cd1a3963df0047506eb0012829a528ba319211cf1e274",
+      "rawPixels": [
+        1688,
+        780
+      ],
+      "logicalViewport": [
+        844,
+        390
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\landscape-webwatch-android.png",
+      "normalizedSha256": "d58a84b6f2378ca939dd9dc15e5aa4da4cace629a7ed154627744dfeeaf75433",
+      "capturedAtUtc": "2026-10-22T20:23:37.746563+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:37.7922223Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1688x780",
+        "state": "webwatch",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "phone-both-off",
+      "raw": "docs\\screenshots\\phone-both-off-final.png",
+      "rawSha256": "0b00066102bcb6e0308d19740043933c33d55b5fdd6ace08cc61319a895f3648",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-both-off-android.png",
+      "normalizedSha256": "022fabe8a5a973b075cd776cf14a9874bc3bf9e2c75a8431f1aa98aa15624187",
+      "capturedAtUtc": "2026-10-22T20:22:22.430027+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:22.4711756Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "both-off",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "phone-card",
+      "raw": "docs\\screenshots\\phone-card-final.png",
+      "rawSha256": "0f78f14a999386774789626be8fc9c3d3ac0dc3bf1419e4582f472d7afb8db4a",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-card-android.png",
+      "normalizedSha256": "fec8422d289522223c5f497a83487f8afbaccc9d51c369a570c2ce033ccc0c46",
+      "capturedAtUtc": "2026-10-22T20:22:27.836992+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 38.72,
+        "lon": -9.14,
+        "zoom": 12.597060635860297
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:27.8789724Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "card",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "phone-confirmed-off",
+      "raw": "docs\\screenshots\\phone-confirmed-off-final.png",
+      "rawSha256": "242772b8be264422c972685b02a5fce66a7c49db40c16ee982b1146a14064721",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-confirmed-off-android.png",
+      "normalizedSha256": "ddd73e5251cc315e937ac152ca1a2bf84a58261515610e2429f9f92da0683368",
+      "capturedAtUtc": "2026-10-22T20:22:17.004958+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:17.0485044Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "confirmed-off",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "phone-detail",
+      "raw": "docs\\screenshots\\phone-detail-final.png",
+      "rawSha256": "34778d04ba8380e63a4ac7b3e27beb2659437be28fa40a9b2a3f875659be7093",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-detail-android.png",
+      "normalizedSha256": "aa272616d1ac922f8db59ad12c5639d24d05e7fb629aec1d85c0948f1ec83efa",
+      "capturedAtUtc": "2026-10-22T20:21:44.624093+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 38.72,
+        "lon": -9.14,
+        "zoom": 12.597060635860297
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:21:44.6654998Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "detail",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\detail-phone-message-open.png",
+      "referenceSha256": "e3368465eb7e39c8a8160052f80920316c7b6a373770c0df0861407fa1219048",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 161517,
+        "changedPercent": 49.069,
+        "meanAbsoluteChannelError": [
+          26.296,
+          25.982,
+          26.926
+        ]
+      }
+    },
+    {
+      "state": "phone-events",
+      "raw": "docs\\screenshots\\phone-events-final.png",
+      "rawSha256": "8820880a70965aac6de817310ff6a013076af6081399c41e3c08e85d9c01aa96",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-events-android.png",
+      "normalizedSha256": "df78c559454ef2b9ebfed6a1ab6172fdbaf299d47c118de0de8665867e06be79",
+      "capturedAtUtc": "2026-10-22T20:21:49.926207+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:21:49.9688492Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "events",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\phone-events-content.png",
+      "referenceSha256": "9ea99fd660ff88968dec2346d7f278b058779cdd9ae03fa994aab0f310200024",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 228437,
+        "changedPercent": 69.4,
+        "meanAbsoluteChannelError": [
+          50.136,
+          48.703,
+          43.978
+        ]
+      }
+    },
+    {
+      "state": "phone-gallery",
+      "raw": "docs\\screenshots\\phone-gallery-final.png",
+      "rawSha256": "b87a4424a7d2b47444e13872ee66689f061ad03ee1a190236f018bc189e7bfec",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-gallery-android.png",
+      "normalizedSha256": "23baa5314a2bff6949973d5b79042b08aab1166dfd1bee29eabe7450f1a422a5",
+      "capturedAtUtc": "2026-10-22T20:22:39.131646+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:39.1831288Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "gallery",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\videos-phone-gallery-list-visible.png",
+      "referenceSha256": "6b776e579e8745a9b3220c8193a5641fb3aaba7ebb4453b6a71c98fb78787d9c",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 83452,
+        "changedPercent": 25.353,
+        "meanAbsoluteChannelError": [
+          16.983,
+          18.315,
+          18.466
+        ]
+      }
+    },
+    {
+      "state": "phone-help",
+      "raw": "docs\\screenshots\\phone-help-final.png",
+      "rawSha256": "e8bdee864dc16ac0c23fda977906eaa3a79d9a85bdb0d951f56a693404dde50d",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-help-android.png",
+      "normalizedSha256": "93fdbc83370969259f5190d44481e0e8eb893f77b926540613071d69bcf365eb",
+      "capturedAtUtc": "2026-10-22T20:22:06.074413+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:06.1145330Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "help",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\phone-help-content.png",
+      "referenceSha256": "73f06e4797f2a42e428be55f108b1dd030e9a962a343596b8e5c2242251f287f",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 58360,
+        "changedPercent": 17.73,
+        "meanAbsoluteChannelError": [
+          14.118,
+          14.938,
+          16.072
+        ]
+      }
+    },
+    {
+      "state": "phone-log",
+      "raw": "docs\\screenshots\\phone-log-final.png",
+      "rawSha256": "602ef80bb971df48963dfd3ac811fcd248892adb19351c9dcfe36021c8223fd2",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-log-android.png",
+      "normalizedSha256": "e182d7ab13b2a952acaa90f200e2b60d319647be4ae9e3f5539af359f6630c01",
+      "capturedAtUtc": "2026-10-22T20:21:39.313799+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:21:39.3634566Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "log",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\phone-log-content.png",
+      "referenceSha256": "3e212015b93f729c30bb4276ff6018a1f7a190419be2ca07cb087d634dcf1a00",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 111606,
+        "changedPercent": 33.906,
+        "meanAbsoluteChannelError": [
+          18.946,
+          24.209,
+          25.545
+        ]
+      }
+    },
+    {
+      "state": "phone-map",
+      "raw": "docs\\screenshots\\phone-map-final.png",
+      "rawSha256": "4145a615b871a97752c910cb5390904741fd62e07d4c4a5046439ebb8dfb8dc3",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-map-android.png",
+      "normalizedSha256": "cda92764b826fdbbb954374bcc9e8c4062dc320009f7054bf2f9f90337536e5a",
+      "capturedAtUtc": "2026-10-22T20:21:28.745926+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:21:28.7975339Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "map",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\phone-map-ready.png",
+      "referenceSha256": "4155f597bc5638aa30512169a83f755231c1c4efa646b7b946385671acdcb093",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 71345,
+        "changedPercent": 21.675,
+        "meanAbsoluteChannelError": [
+          20.862,
+          17.552,
+          14.872
+        ]
+      },
+      "uninterruptedFrameBands": {
+        "pixels": 14823,
+        "changedPixelsThreshold16": 0,
+        "changedPercent": 0.0,
+        "meanAbsoluteChannelError": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "frameChromeExcludingReplacementEnvelopes": {
+        "pixels": 48354,
+        "changedPixelsThreshold16": 650,
+        "changedPercent": 1.344,
+        "meanAbsoluteChannelError": [
+          0.341,
+          0.69,
+          0.949
+        ]
+      }
+    },
+    {
+      "state": "phone-media",
+      "raw": "docs\\screenshots\\phone-media-final.png",
+      "rawSha256": "abae8e18485c19e2e6898d1e9c875a8cd2d280d22513040ad2ee71ece8d4aa71",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-media-android.png",
+      "normalizedSha256": "4a1a715f7287c419498761fe749c79207f469fc1a6b9fcd3117bd672a9296fe9",
+      "capturedAtUtc": "2026-10-22T20:22:33.396921+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 38.72,
+        "lon": -9.14,
+        "zoom": 12.597060635860297
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:33.4448292Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "media",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\detail-phone-sighting-media-open.png",
+      "referenceSha256": "33c7e26e8754c2b48f692430abe4024dd0ff12bd6626ab575f8c22db66cc5543",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 195687,
+        "changedPercent": 59.45,
+        "meanAbsoluteChannelError": [
+          43.007,
+          40.063,
+          40.315
+        ]
+      }
+    },
+    {
+      "state": "phone-menu",
+      "raw": "docs\\screenshots\\phone-menu-final.png",
+      "rawSha256": "407c1d3c1925f03546a3ca2899a23e97a9405abf3810aaab623c72acfc5dc181",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-menu-android.png",
+      "normalizedSha256": "ccf363cc7fc41f8b5c41f84e079fb87ca1228a9882f3785280dba939dfd78401",
+      "capturedAtUtc": "2026-10-22T20:21:33.994639+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:21:34.0354496Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "menu",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\phone-log-menu-settled.png",
+      "referenceSha256": "4fcac818f3253bc8723c184058da0f38cf05ebf0aac764c877f8a2c5fb2acf19",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 39005,
+        "changedPercent": 11.85,
+        "meanAbsoluteChannelError": [
+          10.226,
+          9.899,
+          10.096
+        ]
+      }
+    },
+    {
+      "state": "phone-report",
+      "raw": "docs\\screenshots\\phone-report-final.png",
+      "rawSha256": "c04a6c1392b1bec9462a8925ec4d39ff572b67b46e62b690d9d5dc330df51019",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-report-android.png",
+      "normalizedSha256": "45a33ceebeb33d70b6d2fd6bd9a0c7a2800ef0f27b4aa383768f3bf45e115d43",
+      "capturedAtUtc": "2026-10-22T20:21:55.470596+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:21:55.5106712Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "report",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\phone-report-loaded.png",
+      "referenceSha256": "1b38f935357f44d8a5bccc1853d23317c33fe954d203784930d8affab06285b5",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 86992,
+        "changedPercent": 26.428,
+        "meanAbsoluteChannelError": [
+          18.498,
+          23.481,
+          22.283
+        ]
+      }
+    },
+    {
+      "state": "phone-sound",
+      "raw": "docs\\screenshots\\phone-sound-final.png",
+      "rawSha256": "c9992197821a64d51e58b6eac317ae760b8ac033df16864969a259e92315af83",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-sound-android.png",
+      "normalizedSha256": "e51ab3cd4097fa07b28df869a02fe18908f45fd5312331c414e77de76ad6515d",
+      "capturedAtUtc": "2026-10-22T20:22:44.914712+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:44.9694491Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "sound",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "phone-tutorial",
+      "raw": "docs\\screenshots\\phone-tutorial-final.png",
+      "rawSha256": "4706b22507211f5152ff959cf41d2622535156247f5638930f3a6a4963d313bc",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-tutorial-android.png",
+      "normalizedSha256": "df024b8038624cd83d12a832c01cfa9a75f88f2c88da0e6e7b56b1e64c8f6d08",
+      "capturedAtUtc": "2026-10-22T20:22:50.600739+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:50.6425052Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "tutorial",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "phone-videos",
+      "raw": "docs\\screenshots\\phone-videos-final.png",
+      "rawSha256": "6558f32f11b854bec639c373547e9c14acda6c9bb9c1b38f773f7dd2abd4ac3b",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-videos-android.png",
+      "normalizedSha256": "49dad04992938561d9cf898d4d67fded58a50ba9c6533ae50396837fa9e87a8b",
+      "capturedAtUtc": "2026-10-22T20:22:11.375920+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:11.4200265Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "videos",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\detail-phone-trailer-result.png",
+      "referenceSha256": "e21a303fbe8b9c4c14a9f4527db76f0817e8f064251a4afbfe82d4692cdd83ff",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 252024,
+        "changedPercent": 76.566,
+        "meanAbsoluteChannelError": [
+          18.504,
+          34.694,
+          41.575
+        ]
+      }
+    },
+    {
+      "state": "phone-webwatch",
+      "raw": "docs\\screenshots\\phone-webwatch-final.png",
+      "rawSha256": "2c65314a940838cc32c7c96bb8c7ff0f3b16026420143ecebb49b6b89cf765d9",
+      "rawPixels": [
+        780,
+        1688
+      ],
+      "logicalViewport": [
+        390,
+        844
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\phone-webwatch-android.png",
+      "normalizedSha256": "4491f97d098d4d29c9573e644f3588072c063d22ffd57c719aad6c0d63ecf62e",
+      "capturedAtUtc": "2026-10-22T20:22:00.794133+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:00.8347577Z",
+        "fontScale": "1.0",
+        "physicalPixels": "780x1688",
+        "state": "webwatch",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\phone-webwatch-content.png",
+      "referenceSha256": "4c806a03c844b7edab9b67e3d40847f95833a65e11c9bb6f37a02f01aff0b416",
+      "fullScreenDiagnostic": {
+        "pixels": 329160,
+        "changedPixelsThreshold16": 130664,
+        "changedPercent": 39.696,
+        "meanAbsoluteChannelError": [
+          21.981,
+          21.945,
+          25.528
+        ]
+      }
+    },
+    {
+      "state": "tablet-help",
+      "raw": "docs\\screenshots\\tablet-help-final.png",
+      "rawSha256": "47590fb1eba25712cb42df925e5da37e0c3a598b6fa5ca3238cbd814ff2fce25",
+      "rawPixels": [
+        1536,
+        2048
+      ],
+      "logicalViewport": [
+        768,
+        1024
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\tablet-help-android.png",
+      "normalizedSha256": "bebc322f785fbfc7d700f0f82e50f72122f0fe292cba90af361c1e81d58e6994",
+      "capturedAtUtc": "2026-10-22T20:23:19.642587+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:19.6886368Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1536x2048",
+        "state": "help",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "reference": "analysis\\references\\tablet-help-content.png",
+      "referenceSha256": "83069e7db81d219d7c709649b5b57aa0f5574d7bf3374ccfff3481ce0d0f7524",
+      "fullScreenDiagnostic": {
+        "pixels": 786432,
+        "changedPixelsThreshold16": 140088,
+        "changedPercent": 17.813,
+        "meanAbsoluteChannelError": [
+          8.235,
+          10.3,
+          12.579
+        ]
+      }
+    },
+    {
+      "state": "tablet-log",
+      "raw": "docs\\screenshots\\tablet-log-final.png",
+      "rawSha256": "4478f6ee37a5f74da9a092b4b58bdd370f18fe63fd5f94dd6c321fe61637dc09",
+      "rawPixels": [
+        1536,
+        2048
+      ],
+      "logicalViewport": [
+        768,
+        1024
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\tablet-log-android.png",
+      "normalizedSha256": "c43550e67ef952297f614ac910bfff3e8f5510c91f0e9db0cc3c4bff067f5a25",
+      "capturedAtUtc": "2026-10-22T20:23:08.448630+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:08.4959400Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1536x2048",
+        "state": "log",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "tablet-map",
+      "raw": "docs\\screenshots\\tablet-map-final.png",
+      "rawSha256": "a71fd3fabe2dc04fd60e1954906291e12b14e111b3c8535715545a7a72a5a274",
+      "rawPixels": [
+        1536,
+        2048
+      ],
+      "logicalViewport": [
+        768,
+        1024
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\tablet-map-android.png",
+      "normalizedSha256": "f51f907ef029a7c9bbe2602dcf23165d9d8da11455fcad23079afd0fda2364aa",
+      "capturedAtUtc": "2026-10-22T20:22:56.592453+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:22:56.6457430Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1536x2048",
+        "state": "map",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "tablet-menu",
+      "raw": "docs\\screenshots\\tablet-menu-final.png",
+      "rawSha256": "566398ba02f8e920250e9030859f48daf9f9ae02ace17513a07d03455721475a",
+      "rawPixels": [
+        1536,
+        2048
+      ],
+      "logicalViewport": [
+        768,
+        1024
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\tablet-menu-android.png",
+      "normalizedSha256": "5bbb72556fcb1c8b5cda30a4a1551931594da83bec6a5821c82b15897738ddf6",
+      "capturedAtUtc": "2026-10-22T20:23:02.493039+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:02.5360172Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1536x2048",
+        "state": "menu",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    },
+    {
+      "state": "tablet-webwatch",
+      "raw": "docs\\screenshots\\tablet-webwatch-final.png",
+      "rawSha256": "ed60129b75b3b681d76d69eb9f2cfcaeca2169fa5a416cc6b35f8787e6068f2a",
+      "rawPixels": [
+        1536,
+        2048
+      ],
+      "logicalViewport": [
+        768,
+        1024
+      ],
+      "densityDpi": 320,
+      "fontScale": 1.0,
+      "normalization": "RGB; exact 2:1 BOX downsample; no crop",
+      "normalized": "docs\\comparisons\\tablet-webwatch-android.png",
+      "normalizedSha256": "5fcc9e2d8830a75cd8d527a5219112cbb85cc44eeb484d2d5b8dc1b64143071c",
+      "capturedAtUtc": "2026-10-22T20:23:14.054631+00:00",
+      "debugCapture": true,
+      "decorativeClockSeconds": 0.7,
+      "fixture": "MockSightings v1: 23 confirmed, 29 rumored, 8 event, 1 trailer",
+      "engine": "MapLibre Native 13.6.1; API 37 x86_64; SwiftShader",
+      "cameraRequest": {
+        "lat": 15.973899714245507,
+        "lon": -49.9007427311529,
+        "zoom": 1.0
+      },
+      "deviceEvidence": {
+        "avd": "Medium_Phone_API_37.0",
+        "capturedAtUtc": "2026-10-22T20:23:14.1036270Z",
+        "fontScale": "1.0",
+        "physicalPixels": "1536x2048",
+        "state": "webwatch",
+        "api": 37,
+        "serial": "emulator-5556",
+        "densityDpi": 320
+      },
+      "comparison": "Additional Android state; no same-viewport canonical pair selected."
+    }
+  ],
+  "apk": {
+    "file": "dist\\spider-tracker-phase2-debug.apk",
+    "sha256": "26e0f79fcc5963c95cb737b641cea7d58500e69aeb9b7579660ab3a45c611aa1",
+    "bytes": 60429313
+  }
+}

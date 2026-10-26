@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="2" failures="0" errors="0" skipped="0" time="46.12" timestamp="2026-10-24T23:27:43" hostname="localhost">
+  <testsuite name="com.spidertracker.app.Phase312MapTest" tests="2" failures="0" errors="0" skipped="0" time="44.999" timestamp="2026-10-24T23:27:43" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="nativeZoomCommandsAndGesturesWorkInLandscape" classname="com.spidertracker.app.Phase312MapTest" time="28.066" />
+    <testcase name="nativeZoomCommandsAndGesturesWorkInPortrait" classname="com.spidertracker.app.Phase312MapTest" time="16.933" />
+  </testsuite>
+</testsuites>

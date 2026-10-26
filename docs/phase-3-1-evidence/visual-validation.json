@@ -1,0 +1,50 @@
+{
+  "apkSha256": "ba26296bcbd84d583653cfd47211148a1c2d21c2c76679654eadb79fc1438ddc",
+  "androidTests": 25,
+  "unitTests": 18,
+  "finalCaptures": [
+    {
+      "file": "startup-320dpi.png",
+      "pixels": [
+        780,
+        1386
+      ],
+      "sha256": "1398854caa034f0313ba3505afe83dc858ea4be3e13224c75dacd1a9bf3325e6"
+    },
+    {
+      "file": "real-place-detail.png",
+      "pixels": [
+        780,
+        1386
+      ],
+      "sha256": "51851ccd25070f6f51f28d75a8b2ab28981b70cc2fddf35cfbeffabc24b148d8"
+    },
+    {
+      "file": "demo-alert-detail.png",
+      "pixels": [
+        780,
+        1386
+      ],
+      "sha256": "5a843c2d4693f2d5280ceaead32a3827aefa5e38b519f454c922aa4a47556e35"
+    },
+    {
+      "file": "both-layers-off-gps.png",
+      "pixels": [
+        780,
+        1386
+      ],
+      "sha256": "44b9c808275843d7096a6cec0ac343efea3fdf5637f338dd2b1cec0e19737eb1"
+    },
+    {
+      "file": "basic-420dpi.png",
+      "pixels": [
+        1080,
+        1920
+      ],
+      "sha256": "51803feaa39f93c605d4fae4e1f57b9ecac426051507a722ca48f532007992cd"
+    }
+  ],
+  "realPlaceDetailCaptured": true,
+  "platformGpsEmulatorTest": true,
+  "basicDensityOnly": true
+}

@@ -1,0 +1,58 @@
+{
+  "app\\src\\androidTest\\java\\com\\spidertracker\\app\\GeographicRadarTest.kt": {
+    "status": "added",
+    "sha256": "92487c04239f603ab9f75eaf9a622c2556104a32cc311aab75393543b659378e"
+  },
+  "app\\src\\androidTest\\java\\com\\spidertracker\\app\\TrackerInteractionTest.kt": {
+    "status": "modified",
+    "sha256": "20b44e125bdbd21c48da517560eaaa2d58a792d5840d6204c27f8dd45d0fe54f"
+  },
+  "app\\src\\main\\java\\com\\spidertracker\\app\\AddressSearch.kt": {
+    "status": "modified",
+    "sha256": "0c7b5ef9a70666e8b5eeaf24bc84476e21fd4f49a62e08e784f52fee31df48f7"
+  },
+  "app\\src\\main\\java\\com\\spidertracker\\app\\AddressSearchUi.kt": {
+    "status": "modified",
+    "sha256": "e9e39207c2bd4569b327dd5da9c35f776b69c1a093709e0d44bbb7b9200b5048"
+  },
+  "app\\src\\main\\java\\com\\spidertracker\\app\\MapLayers.kt": {
+    "status": "modified",
+    "sha256": "64602352b4c32c09d9546f56f9cbd7d22a9972510e4db66fdb9a529fd1b0046a"
+  },
+  "app\\src\\main\\java\\com\\spidertracker\\app\\RadarGeography.kt": {
+    "status": "added",
+    "sha256": "13a180b9a5ed57e97b5dda03835de268f98dc0f63b8b586b8b8ae3f97008d237"
+  },
+  "app\\src\\main\\java\\com\\spidertracker\\app\\RadarUi.kt": {
+    "status": "added",
+    "sha256": "31c4459fd6afcccd5a6752b06e1d4fd04b9a34d9f684be218e065ea92a97a517"
+  },
+  "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerModel.kt": {
+    "status": "modified",
+    "sha256": "887be202b2e63ae6b3542244b46eabcd897573f767b301d1dce5efb4beeb6d1a"
+  },
+  "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerScreen.kt": {
+    "status": "modified",
+    "sha256": "1df39ae5541cbe89c3b7ca847e622e13efaa3440ae976d6843ecb40bfdffb50e"
+  },
+  "app\\src\\test\\java\\com\\spidertracker\\app\\MapLayersTest.kt": {
+    "status": "modified",
+    "sha256": "7d18a98209e30f57692a43f62b295b05160d1101880b31a8003b8cd2dc9ff06f"
+  },
+  "app\\src\\test\\java\\com\\spidertracker\\app\\Phase3StateTest.kt": {
+    "status": "modified",
+    "sha256": "d07b6b34d809387c88cef90df2c9ac4f3e61b775b16978435b2e3f9cd3622a3b"
+  },
+  "app\\src\\test\\java\\com\\spidertracker\\app\\RadarGeographyTest.kt": {
+    "status": "added",
+    "sha256": "0019e1b386e92ab936a7392f0ebd5f08f7cc25ad69f4f93db89064795ca2ea91"
+  },
+  "app\\build.gradle.kts": {
+    "status": "modified",
+    "sha256": "aeb8a9536be3caa5f9d48f97dad1892b9995af8555051217a4332a1b4e334b9a"
+  },
+  "README.md": {
+    "status": "modified",
+    "sha256": "a9b339e66584d36b431df0a21d3748e95733749598a037d661d39eb7c49067a5"
+  }
+}

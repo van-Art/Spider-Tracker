@@ -1,0 +1,10 @@
+{
+  "radarGeometryUnchanged": true,
+  "radarDrawingUnchanged": true,
+  "originalPngHashesUnchanged": 14,
+  "radarInnerLineContrastAgainstBaseColors": {
+    "water": 4.63,
+    "land": 3.72
+  },
+  "contrastScope": "Nominal sRGB over unshaded base colors; not a whole-map minimum guarantee."
+}

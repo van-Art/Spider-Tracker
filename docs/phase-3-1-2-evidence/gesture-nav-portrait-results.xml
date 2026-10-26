@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="1" failures="0" errors="0" skipped="0" time="7.732" timestamp="2026-10-24T07:42:50" hostname="localhost">
+  <testsuite name="com.spidertracker.app.TrackerInteractionTest" tests="1" failures="0" errors="0" skipped="0" time="7.056" timestamp="2026-10-24T07:42:50" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="keyboardOverlaysWithoutChangingNativeViewportOrCamera" classname="com.spidertracker.app.TrackerInteractionTest" time="7.056" />
+  </testsuite>
+</testsuites>

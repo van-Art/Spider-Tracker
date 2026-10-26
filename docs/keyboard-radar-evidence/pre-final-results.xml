@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="49" failures="0" errors="0" skipped="0" time="176.799" timestamp="2026-10-24T21:47:08" hostname="localhost">
+  <testsuite name="com.spidertracker.app.GeocoderTest" tests="4" failures="0" errors="0" skipped="0" time="4.525" timestamp="2026-10-24T21:47:08" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="realProviderCodeCachesNormalizesAndThrottlesRequests" classname="com.spidertracker.app.GeocoderTest" time="1.245" />
+    <testcase name="parserValidatesGeometryCoordinatesAndLabels" classname="com.spidertracker.app.GeocoderTest" time="0.002" />
+    <testcase name="busyProviderCooldownPreventsRepeatedRequests" classname="com.spidertracker.app.GeocoderTest" time="1.098" />
+    <testcase name="inMemoryCacheIsBoundedAndKeepsRecentQueries" classname="com.spidertracker.app.GeocoderTest" time="2.18" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.GeographicRadarTest" tests="5" failures="0" errors="0" skipped="0" time="27.342" timestamp="2026-10-24T21:47:08" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="tallDockedInsetsKeepRadarSearchAndSuggestionsSeparateInLandscape" classname="com.spidertracker.app.GeographicRadarTest" time="5.872" />
+    <testcase name="londonLayersUseGeographicRecordsAndDoNotMoveCamera" classname="com.spidertracker.app.GeographicRadarTest" time="4.37" />
+    <testcase name="acceptedGpsFixChangesOriginAndFailureReturnsToMapMode" classname="com.spidertracker.app.GeographicRadarTest" time="8.709" />
+    <testcase name="rangeCyclesAndPersistsWithoutChangingMapAndStatusUsesLatestMode" classname="com.spidertracker.app.GeographicRadarTest" time="4.899" />
+    <testcase name="physicalRadarDotOpensMatchingAttractionDetails" classname="com.spidertracker.app.GeographicRadarTest" time="3.492" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.GlobalAttractionsTest" tests="5" failures="0" errors="0" skipped="0" time="0.074" timestamp="2026-10-24T21:47:08" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="legacyCategoryMigrationPreservesExplicitEmptyAndLayerFlags" classname="com.spidertracker.app.GlobalAttractionsTest" time="0.028" />
+    <testcase name="deltaAtomicallyAddsUpdatesRemovesAndRestoresWithoutVersionRollback" classname="com.spidertracker.app.GlobalAttractionsTest" time="0.003" />
+    <testcase name="malformedOrUntrustedDeltaCannotPartiallyChangeSavedCatalog" classname="com.spidertracker.app.GlobalAttractionsTest" time="0.04" />
+    <testcase name="bundledCatalogHasGroundedGlobalMetadataAndOfflineLocalizedNames" classname="com.spidertracker.app.GlobalAttractionsTest" time="0.002" />
+    <testcase name="corruptOrOlderCacheFallsBackToBundledCatalog" classname="com.spidertracker.app.GlobalAttractionsTest" time="0.001" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.MapLayerInteractionTest" tests="12" failures="0" errors="0" skipped="0" time="55.192" timestamp="2026-10-24T21:47:08" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="oneThousandNearbyReportsClusterWithoutOneViewPerMarker" classname="com.spidertracker.app.MapLayerInteractionTest" time="3.374" />
+    <testcase name="bothLayerTogglesKeepSearchRadarAndGpsMarkerAvailable" classname="com.spidertracker.app.MapLayerInteractionTest" time="6.296" />
+    <testcase name="layerNoticesExpireAndDemoStatusBelongsToMarkers" classname="com.spidertracker.app.MapLayerInteractionTest" time="5.545" />
+    <testcase name="accessibleMarkerSelectionDismissesSearchAndKeyboard" classname="com.spidertracker.app.MapLayerInteractionTest" time="4.924" />
+    <testcase name="longPressFiltersPersistAndOffStateUsesIndependentCategories" classname="com.spidertracker.app.MapLayerInteractionTest" time="3.559" />
+    <testcase name="filterCloseRespondsToPhysicalPointerInputAboveNativeMap" classname="com.spidertracker.app.MapLayerInteractionTest" time="3.518" />
+    <testcase name="tappingAnAlertOpensHonestCompactDetails" classname="com.spidertracker.app.MapLayerInteractionTest" time="4.927" />
+    <testcase name="nativeAlertClustersProduceGeographicallyAnchoredSprites" classname="com.spidertracker.app.MapLayerInteractionTest" time="4.045" />
+    <testcase name="catalogAttractionsWorkAtWorldCountryAndStreetZoom" classname="com.spidertracker.app.MapLayerInteractionTest" time="4.971" />
+    <testcase name="screenRingsAnimateAndStopWithTheirLayer" classname="com.spidertracker.app.MapLayerInteractionTest" time="4.673" />
+    <testcase name="detailPanelUpdatesOnAnotherMarkerAndClosesOnBackOrLayerOff" classname="com.spidertracker.app.MapLayerInteractionTest" time="5.277" />
+    <testcase name="systemReducedMotionAndBackgroundStopScreenPulsing" classname="com.spidertracker.app.MapLayerInteractionTest" time="4.083" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.Phase312MapTest" tests="3" failures="0" errors="0" skipped="0" time="24.873" timestamp="2026-10-24T21:47:08" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="screenRingStaysCircularUnderTiltAndClusterHighlightIsStatic" classname="com.spidertracker.app.Phase312MapTest" time="5.899" />
+    <testcase name="nativeZoomCommandsAndGesturesWorkInLandscape" classname="com.spidertracker.app.Phase312MapTest" time="9.856" />
+    <testcase name="nativeZoomCommandsAndGesturesWorkInPortrait" classname="com.spidertracker.app.Phase312MapTest" time="9.118" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.PixelAssetsTest" tests="5" failures="0" errors="0" skipped="0" time="9.348" timestamp="2026-10-24T21:47:08" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="searchCapsRetainOriginalPixelsAcrossDifferentWidths" classname="com.spidertracker.app.PixelAssetsTest" time="2.089" />
+    <testcase name="placeDetailsDoNotInventAddressAndNavigateSetsOnlyDestination" classname="com.spidertracker.app.PixelAssetsTest" time="1.119" />
+    <testcase name="compactSuggestionAreaRetainsSelectableRowsAboveInput" classname="com.spidertracker.app.PixelAssetsTest" time="2.207" />
+    <testcase name="sharedPreferencesKeepIndependentFlagsAndAnEmptyCategorySet" classname="com.spidertracker.app.PixelAssetsTest" time="1.97" />
+    <testcase name="markerSpritePreservesColorsWithNearestNeighborDrawing" classname="com.spidertracker.app.PixelAssetsTest" time="1.963" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.TrackerInteractionTest" tests="15" failures="0" errors="0" skipped="0" time="54.565" timestamp="2026-10-24T21:47:08" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="mapLibreStyleLoadsAndNativeMapRespondsToPan" classname="com.spidertracker.app.TrackerInteractionTest" time="2.21" />
+    <testcase name="assetsDecodeAtNativeResolutionAndSpriteAdvances" classname="com.spidertracker.app.TrackerInteractionTest" time="1.778" />
+    <testcase name="autocompleteKeyboardSelectionClearAndQueryPersistence" classname="com.spidertracker.app.TrackerInteractionTest" time="4.461" />
+    <testcase name="retainedFiltersLogAndMediaStillWork" classname="com.spidertracker.app.TrackerInteractionTest" time="1.685" />
+    <testcase name="liveSearchEmptyAndNetworkErrorKeepEditableQuery" classname="com.spidertracker.app.TrackerInteractionTest" time="3.58" />
+    <testcase name="rumorMediaAndCloseClearTheMessage" classname="com.spidertracker.app.TrackerInteractionTest" time="3.279" />
+    <testcase name="landscapeAccessoryImeKeepsNativeMapAndSearchStable" classname="com.spidertracker.app.TrackerInteractionTest" time="7.58" />
+    <testcase name="foregroundAnimationClockPausesAndResumes" classname="com.spidertracker.app.TrackerInteractionTest" time="1.627" />
+    <testcase name="autocompleteResultsMoveCameraAndDrawDestination" classname="com.spidertracker.app.TrackerInteractionTest" time="5.526" />
+    <testcase name="radarUsesGrantedDeviceProviderAndGlobalResetsCamera" classname="com.spidertracker.app.TrackerInteractionTest" time="4.554" />
+    <testcase name="unavailableSearchPreservesEditableFieldAndDismissal" classname="com.spidertracker.app.TrackerInteractionTest" time="2.837" />
+    <testcase name="searchArtworkAndEditableLineRemainAligned" classname="com.spidertracker.app.TrackerInteractionTest" time="2.993" />
+    <testcase name="controlledTextCopiesAndPastesThroughTheEditableField" classname="com.spidertracker.app.TrackerInteractionTest" time="4.188" />
+    <testcase name="startupUsesSuppliedArtAndRemovedControlsStayAbsent" classname="com.spidertracker.app.TrackerInteractionTest" time="2.902" />
+    <testcase name="keyboardOverlaysWithoutChangingNativeViewportOrCamera" classname="com.spidertracker.app.TrackerInteractionTest" time="5.365" />
+  </testsuite>
+</testsuites>

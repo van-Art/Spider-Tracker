@@ -1,0 +1,11 @@
+{
+  "provider": "Android LocationManager",
+  "emulatorCoordinates": [
+    51.5074,
+    -0.1278
+  ],
+  "mockOrEmulatorClearlyLabeled": true,
+  "displayedMessage": "TEST LOCATION \u00b7 DEVICE PROVIDER",
+  "mode": "foreground on-demand",
+  "layersOffPreserveGps": true
+}

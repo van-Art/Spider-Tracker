@@ -1,0 +1,378 @@
+{
+  "Q684072": [
+    "Garni Temple",
+    "Historic"
+  ],
+  "Q499285": [
+    "Geghard",
+    "Historic"
+  ],
+  "Q42798": [
+    "Borobudur Temple",
+    "Historic"
+  ],
+  "Q41346": [
+    "Hassan II Mosque",
+    "Cultural"
+  ],
+  "Q80541": [
+    "Sultan Ahmed Mosque",
+    "Historic"
+  ],
+  "Q62939": [
+    "Burj al-Arab",
+    "Building"
+  ],
+  "Q630135": [
+    "Gardens by the Bay",
+    "Park"
+  ],
+  "Q83063": [
+    "Petronas Towers",
+    "Building"
+  ],
+  "Q873769": [
+    "Grand Palace",
+    "Historic"
+  ],
+  "Q482485": [
+    "Gyeongbokgung",
+    "Historic"
+  ],
+  "Q83101": [
+    "Taipei 101",
+    "Building"
+  ],
+  "Q977422": [
+    "Chocolate Hills",
+    "Natural"
+  ],
+  "Q272153": [
+    "Sigiriya",
+    "Historic"
+  ],
+  "Q330872": [
+    "Badshahi Mosque",
+    "Historic"
+  ],
+  "Q1373583": [
+    "Registan",
+    "Historic"
+  ],
+  "Q178835": [
+    "Baalbek",
+    "Historic"
+  ],
+  "Q172077": [
+    "Dome of the Rock",
+    "Historic"
+  ],
+  "Q1548443": [
+    "Sultan Qaboos Grand Mosque",
+    "Cultural"
+  ],
+  "Q209217": [
+    "Great Zimbabwe",
+    "Historic"
+  ],
+  "Q191504": [
+    "Leptis Magna",
+    "Historic"
+  ],
+  "Q650872": [
+    "Okavango Delta",
+    "Natural"
+  ],
+  "Q1932730": [
+    "Sossusvlei",
+    "Natural"
+  ],
+  "Q172070": [
+    "Mount Kenya",
+    "Natural"
+  ],
+  "Q500397": [
+    "Bwindi Impenetrable National Park",
+    "Park"
+  ],
+  "Q207945": [
+    "Monastery of Saint John of Rila",
+    "Historic"
+  ],
+  "Q390275": [
+    "Bran Castle",
+    "Historic"
+  ],
+  "Q204871": [
+    "Charles Bridge",
+    "Historic"
+  ],
+  "Q131330": [
+    "Schönbrunn Palace",
+    "Historic"
+  ],
+  "Q11819": [
+    "Hungarian Parliament Building",
+    "Building"
+  ],
+  "Q180901": [
+    "Atomium",
+    "Monument"
+  ],
+  "Q215003": [
+    "Belém Tower",
+    "Historic"
+  ],
+  "Q271466": [
+    "Hallgrímskirkja",
+    "Building"
+  ],
+  "Q1126911": [
+    "Frogner Park",
+    "Cultural"
+  ],
+  "Q901371": [
+    "Vasa Museum",
+    "Museum"
+  ],
+  "Q1292442": [
+    "Suomenlinna",
+    "Historic"
+  ],
+  "Q1140534": [
+    "Rundetaarn",
+    "Historic"
+  ],
+  "Q239477": [
+    "Cliffs of Moher",
+    "Natural"
+  ],
+  "Q246105": [
+    "Zytglogge",
+    "Historic"
+  ],
+  "Q18820": [
+    "Wawel Castle",
+    "Historic"
+  ],
+  "Q648902": [
+    "Lake Bled",
+    "Natural"
+  ],
+  "Q189849": [
+    "Plitvice Lakes National Park",
+    "Park"
+  ],
+  "Q207468": [
+    "Bay of Kotor",
+    "Natural"
+  ],
+  "Q34221": [
+    "Niagara Falls",
+    "Natural"
+  ],
+  "Q181172": [
+    "Tikal",
+    "Historic"
+  ],
+  "Q7350": [
+    "Panama Canal",
+    "Building"
+  ],
+  "Q641588": [
+    "Arenal Volcano",
+    "Natural"
+  ],
+  "Q15043487": [
+    "Havana Cathedral",
+    "Historic"
+  ],
+  "Q80299": [
+    "Angel Falls",
+    "Natural"
+  ],
+  "Q38095": [
+    "Galapagos Islands",
+    "Natural"
+  ],
+  "Q76122": [
+    "Salar de Uyuni",
+    "Natural"
+  ],
+  "Q901646": [
+    "Torres del Paine National Park",
+    "Park"
+  ],
+  "Q367943": [
+    "Perito Moreno Glacier",
+    "Natural"
+  ],
+  "Q187197": [
+    "Milford Sound / Piopiotahi",
+    "Natural"
+  ],
+  "Q846967": [
+    "Nan Madol",
+    "Historic"
+  ],
+  "Q243": [
+    "Eiffel Tower",
+    "Building"
+  ],
+  "Q9202": [
+    "Statue of Liberty",
+    "Monument"
+  ],
+  "Q9141": [
+    "Taj Mahal",
+    "Historic"
+  ],
+  "Q10285": [
+    "Colosseum",
+    "Historic"
+  ],
+  "Q45178": [
+    "Sydney Opera House",
+    "Cultural"
+  ],
+  "Q37200": [
+    "Great Pyramid of Giza",
+    "Historic"
+  ],
+  "Q676203": [
+    "Machu Picchu",
+    "Historic"
+  ],
+  "Q79961": [
+    "Christ the Redeemer",
+    "Monument"
+  ],
+  "Q43473": [
+    "Angkor Wat",
+    "Historic"
+  ],
+  "Q5788": [
+    "Petra",
+    "Historic"
+  ],
+  "Q5859": [
+    "Chichen Itza",
+    "Historic"
+  ],
+  "Q131013": [
+    "Acropolis of Athens",
+    "Historic"
+  ],
+  "Q48435": [
+    "Basilica and Expiatory Church of the Holy Family",
+    "Building"
+  ],
+  "Q41225": [
+    "Big Ben",
+    "Building"
+  ],
+  "Q19675": [
+    "Louvre Museum",
+    "Museum"
+  ],
+  "Q6373": [
+    "British Museum",
+    "Museum"
+  ],
+  "Q160112": [
+    "Museo del Prado",
+    "Museum"
+  ],
+  "Q351": [
+    "Yellowstone National Park",
+    "Park"
+  ],
+  "Q7296": [
+    "Mount Kilimanjaro",
+    "Natural"
+  ],
+  "Q36332": [
+    "Iguaçu Falls",
+    "Natural"
+  ],
+  "Q7343": [
+    "Great Barrier Reef",
+    "Natural"
+  ],
+  "Q33910": [
+    "Uluru",
+    "Natural"
+  ],
+  "Q39231": [
+    "Mount Fuji",
+    "Natural"
+  ],
+  "Q12495": [
+    "Burj Khalifa",
+    "Building"
+  ],
+  "Q12506": [
+    "Hagia Sophia",
+    "Historic"
+  ],
+  "Q39671": [
+    "Stonehenge",
+    "Historic"
+  ],
+  "Q80290": [
+    "Forbidden City",
+    "Historic"
+  ],
+  "Q12501": [
+    "Great Wall of China",
+    "Historic"
+  ],
+  "Q513": [
+    "Mount Everest",
+    "Natural"
+  ],
+  "Q82425": [
+    "Brandenburg Gate",
+    "Monument"
+  ],
+  "Q11812902": [
+    "Serengeti National Park",
+    "Park"
+  ],
+  "Q213360": [
+    "Table Mountain",
+    "Natural"
+  ],
+  "Q43278": [
+    "Victoria Falls",
+    "Natural"
+  ],
+  "Q464535": [
+    "Shwedagon Pagoda",
+    "Cultural"
+  ],
+  "Q4152": [
+    "Neuschwanstein Castle",
+    "Historic"
+  ],
+  "Q134883": [
+    "CN Tower",
+    "Building"
+  ],
+  "Q188754": [
+    "Himeji Castle",
+    "Historic"
+  ],
+  "Q41116": [
+    "Red Square",
+    "Cultural"
+  ],
+  "Q129072": [
+    "Persepolis",
+    "Historic"
+  ],
+  "Q118841": [
+    "Grand Canyon",
+    "Natural"
+  ]
+}

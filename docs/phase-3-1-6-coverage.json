@@ -1,0 +1,454 @@
+{
+  "records": 94,
+  "countriesWithData": 77,
+  "countries": {
+    "Q142": {
+      "label": "France",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q30": {
+      "label": "United States",
+      "count": 4,
+      "status": "incomplete"
+    },
+    "Q668": {
+      "label": "India",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q38": {
+      "label": "Italy",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q408": {
+      "label": "Australia",
+      "count": 3,
+      "status": "incomplete"
+    },
+    "Q79": {
+      "label": "Egypt",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q419": {
+      "label": "Peru",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q155": {
+      "label": "Brazil",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q424": {
+      "label": "Cambodia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q810": {
+      "label": "Jordan",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q96": {
+      "label": "Mexico",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q41": {
+      "label": "Greece",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q29": {
+      "label": "Spain",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q145": {
+      "label": "United Kingdom",
+      "count": 3,
+      "status": "incomplete"
+    },
+    "Q924": {
+      "label": "Tanzania",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q414": {
+      "label": "Argentina",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q17": {
+      "label": "Japan",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q878": {
+      "label": "United Arab Emirates",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q43": {
+      "label": "Turkey",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q148": {
+      "label": "People's Republic of China",
+      "count": 3,
+      "status": "incomplete"
+    },
+    "Q837": {
+      "label": "Nepal",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q183": {
+      "label": "Germany",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q258": {
+      "label": "South Africa",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q953": {
+      "label": "Zambia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q954": {
+      "label": "Zimbabwe",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q836": {
+      "label": "Myanmar",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q16": {
+      "label": "Canada",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q159": {
+      "label": "Russia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q794": {
+      "label": "Iran",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q399": {
+      "label": "Armenia",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q252": {
+      "label": "Indonesia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q1028": {
+      "label": "Morocco",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q334": {
+      "label": "Singapore",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q833": {
+      "label": "Malaysia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q869": {
+      "label": "Thailand",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q884": {
+      "label": "South Korea",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q865": {
+      "label": "Taiwan",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q928": {
+      "label": "Philippines",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q854": {
+      "label": "Sri Lanka",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q843": {
+      "label": "Pakistan",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q265": {
+      "label": "Uzbekistan",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q822": {
+      "label": "Lebanon",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q219060": {
+      "label": "Palestine",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q842": {
+      "label": "Oman",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q1016": {
+      "label": "Libya",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q963": {
+      "label": "Botswana",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q1030": {
+      "label": "Namibia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q114": {
+      "label": "Kenya",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q1036": {
+      "label": "Uganda",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q219": {
+      "label": "Bulgaria",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q218": {
+      "label": "Romania",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q213": {
+      "label": "Czech Republic",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q40": {
+      "label": "Austria",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q28": {
+      "label": "Hungary",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q31": {
+      "label": "Belgium",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q45": {
+      "label": "Portugal",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q189": {
+      "label": "Iceland",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q20": {
+      "label": "Norway",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q34": {
+      "label": "Sweden",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q33": {
+      "label": "Finland",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q35": {
+      "label": "Denmark",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q27": {
+      "label": "Ireland",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q39": {
+      "label": "Switzerland",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q36": {
+      "label": "Poland",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q215": {
+      "label": "Slovenia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q224": {
+      "label": "Croatia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q236": {
+      "label": "Montenegro",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q774": {
+      "label": "Guatemala",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q804": {
+      "label": "Panama",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q800": {
+      "label": "Costa Rica",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q241": {
+      "label": "Cuba",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q717": {
+      "label": "Venezuela",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q736": {
+      "label": "Ecuador",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q750": {
+      "label": "Bolivia",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q298": {
+      "label": "Chile",
+      "count": 2,
+      "status": "incomplete"
+    },
+    "Q664": {
+      "label": "New Zealand",
+      "count": 1,
+      "status": "incomplete"
+    },
+    "Q702": {
+      "label": "Federated States of Micronesia",
+      "count": 1,
+      "status": "incomplete"
+    }
+  },
+  "unknownCountry": [],
+  "basemapAreasWithoutMatchedCountry": [
+    "Afghanistan",
+    "Algeria",
+    "Angola",
+    "Azerbaijan",
+    "Bangladesh",
+    "Belarus",
+    "Benin",
+    "Burkina Faso",
+    "Burundi",
+    "Cameroon",
+    "Chad",
+    "Colombia",
+    "Democratic Republic of the Congo",
+    "Dominican Republic",
+    "El Salvador",
+    "Eritrea",
+    "Ethiopia",
+    "Ghana",
+    "Guinea",
+    "Haiti",
+    "Honduras",
+    "Iraq",
+    "Israel",
+    "Ivory Coast",
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Laos",
+    "Madagascar",
+    "Malawi",
+    "Mali",
+    "Mozambique",
+    "Netherlands",
+    "Nicaragua",
+    "Niger",
+    "Nigeria",
+    "North Korea",
+    "Papua New Guinea",
+    "Paraguay",
+    "Republic of the Congo",
+    "Rwanda",
+    "Saudi Arabia",
+    "Senegal",
+    "Serbia",
+    "Sierra Leone",
+    "Slovakia",
+    "Somalia",
+    "Somaliland",
+    "South Sudan",
+    "Sudan",
+    "Syria",
+    "Tajikistan",
+    "Togo",
+    "Tunisia",
+    "Turkmenistan",
+    "Ukraine",
+    "Vietnam",
+    "Yemen"
+  ],
+  "auditBasis": "Natural Earth basemap area labels, including territories; not a sovereign-country census",
+  "unlistedCountries": "unavailable in this catalog; not evidence of no attractions",
+  "completeCountries": 0
+}

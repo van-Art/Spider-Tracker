@@ -1,0 +1,42 @@
+{
+  "apk": "C:\\Users\\Vahram\\Desktop\\Spider-Tracker\\dist\\spider-tracker-phase3-debug.apk",
+  "apkBytes": 60586062,
+  "apkSha256": "08ad408efa2acbe363231e51d3003b2daa898b8c60f570fccd4400f18fd0a638",
+  "tests": {
+    "unit": 12,
+    "android": 12
+  },
+  "lintErrors": 0,
+  "lintWarnings": 11,
+  "assetsVerified": 6,
+  "spriteFrames": 76,
+  "phase2ApkPreserved": true,
+  "sourceSha256": {
+    "app\\src\\main\\AndroidManifest.xml": "1f7f09f443a3fa4f03c26b2512361ff47acfc66cf93f40d912d6d08042e9539f",
+    "app\\src\\main\\assets\\tracker-style.json": "940fcddecc4e17f225c4dc8bd239e7ccf2f21a4692149cceec174524131a0797",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\AddressSearch.kt": "94b48f942c4db5c206a76da4738ca39616f5b3d7ec1bd2c6ea1d374598a8d35b",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\AddressSearchUi.kt": "ffd779f7263297b09befdd4a48cc9d0fdb26c0165ca31dffd0c66853a85cca6a",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\DeviceLocation.kt": "f4d61afc321d37c34720de226785805d1dbf3a5c078412d6f4fb41c88d45a29e",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\MainActivity.kt": "f884811f3a592d0e290d3e9f62bb13f276f7b5722d608c2285c1b5c10b227ddc",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\MapRenderer.kt": "28da0cab581ba905b73770b7a2da2dbeec3da022e92e561651e56656bf4eedc1",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\SuppliedArt.kt": "354de68b629c7cc60d9e362afa3eb323c8bf69cd460809a6a7fa568d9427513f",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerArt.kt": "6d27963c8d714fc4e6a0f803687b9f1ea5cc4a1c86135da649b59d9788ad559c",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerModel.kt": "bba52a3423ab50bd592dac889f2b03bfa4ddf5877087150e0703f2e1d1aed852",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerPanels.kt": "1234f546cd7ef1d89dd477f4171c776df29bb32e8abed764baa4d5b2021a0a93",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerScreen.kt": "9eac06909d776d2cb8cc8afdb1e3284c0dbcb40d4399b794784b777b7a8ed210",
+    "app\\src\\main\\res\\drawable\\ic_tracker.xml": "b3f6eacd44f3834b00c4fd8a4ce51c9dc0a5cd73516cc0267fecf4888d52236c",
+    "app\\src\\main\\res\\drawable-nodpi\\center.png": "afba8b80cfd557523b54420fe31bd3b032569fcc718d31999df134b34f871ac0",
+    "app\\src\\main\\res\\drawable-nodpi\\left_up_logo.png": "83fae1f7797d194ab8a278462154dcee06ae9fd0472f49fc0347b30a959f9688",
+    "app\\src\\main\\res\\drawable-nodpi\\right_up_logo.png": "a25accf4959ee887cf1e09577f08173e1d86bdfaf3cc616c02897c082a08a24a",
+    "app\\src\\main\\res\\drawable-nodpi\\spider_sprite_sheet.png": "b32d0c61dc4d9434999ef718068f4f1ccb2419e9efc3b9b6f53f16d7520a9793",
+    "app\\src\\main\\res\\drawable-nodpi\\tracker_logo.png": "f8fd6f32db3928f3cc24c21f7a7643aa95194fd288a9a415c90e149222749487",
+    "app\\src\\main\\res\\drawable-nodpi\\zoom_to_global.png": "858cf1ef79e57402bb54275db61e1767a7b039dff6028140b42bd5c8a6896b52",
+    "app\\src\\main\\res\\values\\styles.xml": "18d3d512b3279b426a46bfe862aa9ea963a01ee3b93c8b784c20f721e4c6d8d3"
+  },
+  "limitations": [
+    "No physical-device GPS certification",
+    "No routing/backend",
+    "Public Photon has no SLA",
+    "Visual differences documented"
+  ]
+}

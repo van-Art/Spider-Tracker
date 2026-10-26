@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spidertracker.app.RadarGeographyTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-24T23:19:15.031Z" hostname="DESKTOP-G815L" time="0.038">
+  <properties/>
+  <testcase name="disabledLayerInputRemovesOnlyItsDotsAndDemoNeverLooksLive" classname="com.spidertracker.app.RadarGeographyTest" time="0.0"/>
+  <testcase name="viewportShowsDistantRecordsAndUsesOnlyVisibleProjectedPositions" classname="com.spidertracker.app.RadarGeographyTest" time="0.001"/>
+  <testcase name="invalidCameraHasExplicitUnavailableOriginButGpsStillWorks" classname="com.spidertracker.app.RadarGeographyTest" time="0.001"/>
+  <testcase name="denseFeaturesAreBoundedPerKindAndKeepRepositoryIds" classname="com.spidertracker.app.RadarGeographyTest" time="0.032"/>
+  <testcase name="fixedRadiusIncludesBoundaryAndOmitsBeyondIt" classname="com.spidertracker.app.RadarGeographyTest" time="0.0"/>
+  <testcase name="datelineAndPolarPositionsRemainFinite" classname="com.spidertracker.app.RadarGeographyTest" time="0.0"/>
+  <testcase name="viewportCornersStayInsideWebAndInvalidProjectionCannotCreateDots" classname="com.spidertracker.app.RadarGeographyTest" time="0.002"/>
+  <testcase name="invalidRangesAreRejectedAndRepeatedRecordsKeepStableIds" classname="com.spidertracker.app.RadarGeographyTest" time="0.0"/>
+  <testcase name="cardinalBearingsAreNorthUpWithLinearDistance" classname="com.spidertracker.app.RadarGeographyTest" time="0.001"/>
+  <testcase name="cameraAndGpsChangesRefreshPositionsWithoutMutatingInputs" classname="com.spidertracker.app.RadarGeographyTest" time="0.0"/>
+  <testcase name="gpsUsesDeviceOriginAndOnlyItCreatesCenteredUserDot" classname="com.spidertracker.app.RadarGeographyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

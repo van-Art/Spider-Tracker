@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="5" failures="0" errors="0" skipped="0" time="10.894" timestamp="2026-10-24T21:43:44" hostname="localhost">
+  <testsuite name="com.spidertracker.app.GeographicRadarTest" tests="1" failures="0" errors="0" skipped="0" time="5.864" timestamp="2026-10-24T21:43:44" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="tallDockedInsetsKeepRadarSearchAndSuggestionsSeparateInLandscape" classname="com.spidertracker.app.GeographicRadarTest" time="5.864" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.GeocoderTest" tests="4" failures="0" errors="0" skipped="0" time="4.418" timestamp="2026-10-24T21:43:44" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="realProviderCodeCachesNormalizesAndThrottlesRequests" classname="com.spidertracker.app.GeocoderTest" time="1.117" />
+    <testcase name="parserValidatesGeometryCoordinatesAndLabels" classname="com.spidertracker.app.GeocoderTest" time="0.001" />
+    <testcase name="busyProviderCooldownPreventsRepeatedRequests" classname="com.spidertracker.app.GeocoderTest" time="1.074" />
+    <testcase name="inMemoryCacheIsBoundedAndKeepsRecentQueries" classname="com.spidertracker.app.GeocoderTest" time="2.226" />
+  </testsuite>
+</testsuites>

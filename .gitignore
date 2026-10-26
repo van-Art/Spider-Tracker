@@ -1,0 +1,252 @@
+
+# ============================================================
+# SPIDER TRACKER — GITIGNORE
+# Android / Kotlin / Jetpack Compose / MapLibre
+# Graphify / Codex / GraphHopper / Windows 11
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 1. GRADLE CACHES
+# ------------------------------------------------------------
+
+.gradle/
+.gradle-user-home/
+**/.gradle/
+**/.gradle-user-home/
+
+# Keep Gradle Wrapper files:
+# gradlew
+# gradlew.bat
+# gradle/wrapper/gradle-wrapper.jar
+# gradle/wrapper/gradle-wrapper.properties
+
+
+# ------------------------------------------------------------
+# 2. ANDROID BUILD OUTPUT
+# ------------------------------------------------------------
+
+**/build/
+out/
+dist/
+*.apk
+*.aab
+*.apks
+*.dex
+*.class
+*.hprof
+*.prof
+*.profm
+*.mapping
+*.idsig
+
+
+# ------------------------------------------------------------
+# 3. ANDROID STUDIO / INTELLIJ IDEA
+# ------------------------------------------------------------
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.cxx/
+.externalNativeBuild/
+captures/
+.navigation/
+local.properties
+
+
+# ------------------------------------------------------------
+# 4. LOCAL TOOLS
+# ------------------------------------------------------------
+
+.tools/
+.tmp/
+temp/
+tmp/
+
+
+# ------------------------------------------------------------
+# 5. CODEx — LOCAL STATE
+# ------------------------------------------------------------
+
+# Preserve .codex/hooks.json and other shared configuration
+# when they contain no credentials.
+.codex/cache/
+.codex/logs/
+.codex/tmp/
+.codex/sessions/
+.codex/*.graphify-bak
+
+
+# ------------------------------------------------------------
+# 6. GRAPHIFY — GENERATED KNOWLEDGE GRAPH
+# ------------------------------------------------------------
+
+graphify-out/
+.graphify/cache/
+.graphify/logs/
+.graphify/tmp/
+
+
+# ------------------------------------------------------------
+# 7. GRAPHHOPPER — DATASETS AND GRAPH CACHE
+# ------------------------------------------------------------
+
+graph-cache/
+**/graph-cache/
+*.osm.pbf
+*.osm.bz2
+*.osm.gz
+*.osm.xml
+*.gh
+*.ghz
+*.mbtiles
+*.pmtiles
+
+# Keep GraphHopper configurations, Dockerfiles and code.
+
+
+# ------------------------------------------------------------
+# 8. LOCAL SERVER DATA
+# ------------------------------------------------------------
+
+data/cache/
+data/tmp/
+backend/data/cache/
+backend/data/tmp/
+backend/logs/
+
+
+# ------------------------------------------------------------
+# 9. ENVIRONMENT VARIABLES AND SECRETS
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+secrets.properties
+secrets.xml
+credentials.json
+service-account*.json
+google-services.json
+
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.asc
+
+id_rsa
+id_ed25519
+
+
+# ------------------------------------------------------------
+# 10. PYTHON CACHES
+# ------------------------------------------------------------
+
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ------------------------------------------------------------
+# 11. NODE / JAVASCRIPT TOOLS
+# ------------------------------------------------------------
+
+node_modules/
+.npm/
+.next/
+coverage/
+
+
+# ------------------------------------------------------------
+# 12. OPERATING SYSTEM FILES
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+
+# ------------------------------------------------------------
+# 13. LOGS AND TEMPORARY FILES
+# ------------------------------------------------------------
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+# ------------------------------------------------------------
+# 14. TEST OUTPUTS
+# ------------------------------------------------------------
+
+test-results/
+androidTest-results/
+reports/
+screenshots-test/
+benchmark-results/
+
+
+# ------------------------------------------------------------
+# 15. FILES THAT MUST REMAIN TRACKABLE
+# ------------------------------------------------------------
+
+# README.md
+# AGENTS.md
+# settings.gradle.kts
+# build.gradle.kts
+# gradle.properties (only when it contains no secrets)
+# gradlew
+# gradlew.bat
+# gradle/wrapper/
+# app/src/
+# docs/
+# scripts/
+# Screenshots/
+# .codex/hooks.json (only when safe to publish)
+# backend/graphhopper/config.yml
+# backend/graphhopper/docker-compose.yml
+
+# REA / generated analysis evidence
+analysis/evidence/
+
+# Generated analysis outputs (keep source scripts)
+analysis/output/
+analysis/reports/generated/
+
+# Generated website analysis
+analysis/rea/
+analysis/source/
+analysis/evidence/
+
+# Generated test evidence
+docs/evidence/
+
+# ============================================================
+# END
+# ============================================================

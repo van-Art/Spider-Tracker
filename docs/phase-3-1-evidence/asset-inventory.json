@@ -1,0 +1,114 @@
+[
+  {
+    "name": "confirmed_sightings_button.png",
+    "size": [
+      57,
+      43
+    ],
+    "sha256": "a0dcc21adf4ea5f1f4d149dccbc6d1cc8563f3880197090eb9d982ae275cc6a1",
+    "bounds": [
+      2,
+      0,
+      54,
+      42
+    ]
+  },
+  {
+    "name": "confirmed_sightings_location.png",
+    "size": [
+      34,
+      34
+    ],
+    "sha256": "44013fc45b0e730e42ceee2c84074dcdb73d83e38e6ebd3622038b64d84e11b1",
+    "bounds": [
+      0,
+      0,
+      33,
+      33
+    ]
+  },
+  {
+    "name": "main_point_location.png",
+    "size": [
+      34,
+      34
+    ],
+    "sha256": "62b0262ec40ca31aee5262a280dccb75765e4fd043e71197b6205427c6dd44e6",
+    "bounds": [
+      0,
+      0,
+      33,
+      33
+    ]
+  },
+  {
+    "name": "off_button.png",
+    "size": [
+      57,
+      43
+    ],
+    "sha256": "4e7c883dd7751c70aba4d12ef56ef8e544cde2ff2f39e569e3d8abc96ce742fb",
+    "bounds": [
+      2,
+      0,
+      54,
+      42
+    ]
+  },
+  {
+    "name": "rumored_sightings_button.png",
+    "size": [
+      57,
+      43
+    ],
+    "sha256": "8b2822c3e589f02aaf308bcdb15845f718946cd9754f28893dce1cd64b5ccb79",
+    "bounds": [
+      2,
+      0,
+      54,
+      42
+    ]
+  },
+  {
+    "name": "rumored_sightings_location.png",
+    "size": [
+      34,
+      34
+    ],
+    "sha256": "d2d43c218e6089e2b0e067644f6d649f4356a7cacfe9ce1d0f10d69531d638b1",
+    "bounds": [
+      0,
+      0,
+      33,
+      33
+    ]
+  },
+  {
+    "name": "search_bar.png",
+    "size": [
+      527,
+      40
+    ],
+    "sha256": "17e06806ba8f4294a349b4e9c6b931d5a7b7e9003237eef5c941d8a314d0342b",
+    "bounds": [
+      0,
+      0,
+      527,
+      40
+    ]
+  },
+  {
+    "name": "search_button.png",
+    "size": [
+      54,
+      41
+    ],
+    "sha256": "7108868e231263846620bc5da015abc8de6692aa56ad7c73439d56d6ebdc29d9",
+    "bounds": [
+      0,
+      0,
+      54,
+      41
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "searchQuery": "London",
+  "selectedRealAddress": "London, Westminster, England, United Kingdom",
+  "actualSearchResults": 5,
+  "realPlaceDetailCaptured": false,
+  "markerTemplateMatchUsesOriginalPng": true,
+  "apkVersion": "0.3.1",
+  "densityDpi": 320
+}

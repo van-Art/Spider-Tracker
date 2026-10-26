@@ -1,0 +1,7 @@
+      mInputShown=true
+    mInFullscreenMode=false
+  mFullscreenMode=false
+  mShowInputRequested=true mLastShowInputRequested=true mShowInputFlags=0x1
+  mIsInputViewShown=true mStatusIcon=0
+    contentTopInsets=780 visibleTopInsets=780 touchableInsets=3 touchableRegion=SkRegion((16,336,128,448))
+  mSettingsObserver=SettingsObserver{mShowImeWithHardKeyboard=1}

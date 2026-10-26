@@ -1,0 +1,274 @@
+{
+  "referenceSha256": "cc6c0bfc776e305f23f4d7c6325ac379f87bf0f443f05c946cead0df667b4d5d",
+  "androidSha256": "b9734b0ffb916ae11b1ef9d4c263c621a8e7204c2872b2ad9806623fa204ac95",
+  "referenceSize": [
+    941,
+    1672
+  ],
+  "androidSize": [
+    780,
+    1386
+  ],
+  "densityDpi": 320,
+  "referenceMeasurementTolerancePixels": 2,
+  "geometry": {
+    "map": {
+      "referencePixels": [
+        63,
+        67,
+        876,
+        1521
+      ],
+      "referenceDp": [
+        26.11,
+        27.77,
+        363.06,
+        630.41
+      ],
+      "androidPixels": [
+        54,
+        56,
+        726,
+        1270
+      ],
+      "androidDp": [
+        27.0,
+        28.0,
+        363.0,
+        635.0
+      ],
+      "edgeDeltaDp": [
+        0.89,
+        0.23,
+        -0.06,
+        4.59
+      ]
+    },
+    "header": {
+      "referencePixels": [
+        242,
+        39,
+        703,
+        111
+      ],
+      "referenceDp": [
+        100.3,
+        16.16,
+        291.36,
+        46.01
+      ],
+      "androidPixels": [
+        199,
+        32,
+        581,
+        96
+      ],
+      "androidDp": [
+        99.5,
+        16.0,
+        290.5,
+        48.0
+      ],
+      "edgeDeltaDp": [
+        -0.8,
+        -0.16,
+        -0.86,
+        1.99
+      ]
+    },
+    "radar": {
+      "referencePixels": [
+        589,
+        1263,
+        835,
+        1511
+      ],
+      "referenceDp": [
+        244.11,
+        523.48,
+        346.07,
+        626.27
+      ],
+      "androidPixels": [
+        491,
+        1041,
+        698,
+        1248
+      ],
+      "androidDp": [
+        245.5,
+        520.5,
+        349.0,
+        624.0
+      ],
+      "edgeDeltaDp": [
+        1.39,
+        -2.98,
+        2.93,
+        -2.27
+      ]
+    },
+    "search_visible_outline": {
+      "referencePixels": [
+        110,
+        1535,
+        810,
+        1628
+      ],
+      "referenceDp": [
+        45.59,
+        636.22,
+        335.71,
+        674.76
+      ],
+      "androidPixels": [
+        92,
+        1278,
+        668,
+        1358
+      ],
+      "androidDp": [
+        46.0,
+        639.0,
+        334.0,
+        679.0
+      ],
+      "edgeDeltaDp": [
+        0.41,
+        2.78,
+        -1.71,
+        4.24
+      ]
+    },
+    "global_visible_icon": {
+      "referencePixels": [
+        811,
+        1346,
+        878,
+        1412
+      ],
+      "referenceDp": [
+        336.12,
+        557.88,
+        363.89,
+        585.24
+      ],
+      "androidPixels": [
+        670,
+        1117,
+        726,
+        1173
+      ],
+      "androidDp": [
+        335.0,
+        558.5,
+        363.0,
+        586.5
+      ],
+      "edgeDeltaDp": [
+        -1.12,
+        0.62,
+        -0.89,
+        1.26
+      ]
+    },
+    "location_visible_icon": {
+      "referencePixels": [
+        758,
+        1455,
+        827,
+        1525
+      ],
+      "referenceDp": [
+        314.16,
+        603.06,
+        342.75,
+        632.07
+      ],
+      "androidPixels": [
+        634,
+        1200,
+        690,
+        1256
+      ],
+      "androidDp": [
+        317.0,
+        600.0,
+        345.0,
+        628.0
+      ],
+      "edgeDeltaDp": [
+        2.84,
+        -3.06,
+        2.25,
+        -4.07
+      ]
+    },
+    "character": {
+      "referencePixels": [
+        31,
+        1527,
+        102,
+        1648
+      ],
+      "referenceDp": [
+        12.85,
+        632.9,
+        42.27,
+        683.05
+      ],
+      "androidPixels": [
+        20,
+        1264,
+        84,
+        1366
+      ],
+      "androidDp": [
+        10.0,
+        632.0,
+        42.0,
+        683.0
+      ],
+      "edgeDeltaDp": [
+        -2.85,
+        -0.9,
+        -0.27,
+        -0.05
+      ]
+    }
+  },
+  "samples": {
+    "referenceFrame": [
+      1,
+      190,
+      253
+    ],
+    "androidFrame": [
+      0,
+      190,
+      252
+    ],
+    "referenceWater": [
+      11,
+      23,
+      38
+    ],
+    "androidWater": [
+      14,
+      23,
+      43
+    ],
+    "referenceInput": [
+      16,
+      38,
+      50
+    ],
+    "androidInput": [
+      17,
+      38,
+      50
+    ]
+  },
+  "wholeImageMeanAbsoluteRgbError": 19.439,
+  "metricMeaning": "Diagnostic RGB error out of 255, not a visual-fidelity percentage. No masking; includes changed artwork, map labels, fixtures and textures."
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "osm:39628773",
+    "name": "Trafalgar Square",
+    "category": "Attraction",
+    "lat": 51.50844864450184,
+    "lon": -0.12845098972320557,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:118750034691",
+    "name": "Goodwin's Court",
+    "category": "Attraction",
+    "lat": 51.510956021548566,
+    "lon": -0.1262730360031128,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:53246421621",
+    "name": "Jumbo",
+    "category": "Supermarket",
+    "lat": 51.50784431594798,
+    "lon": -0.12430965900421143,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:1512971092",
+    "name": "Chipotle",
+    "category": "Food",
+    "lat": 51.510795767223584,
+    "lon": -0.1272064447402954,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:3399253971",
+    "name": "Pret A Manger",
+    "category": "Food",
+    "lat": 51.509403534054,
+    "lon": -0.12678802013397217,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:3488146741",
+    "name": "Burger King",
+    "category": "Food",
+    "lat": 51.51094600566975,
+    "lon": -0.12950778007507324,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:4934702182",
+    "name": "Saravanaa Bhavan",
+    "category": "Food",
+    "lat": 51.510258243392144,
+    "lon": -0.12864947319030762,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:6915854311",
+    "name": "Abokado",
+    "category": "Food",
+    "lat": 51.510605464480506,
+    "lon": -0.1270991563796997,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:34467666981",
+    "name": "Jamaica Patty Co",
+    "category": "Food",
+    "lat": 51.51110625946626,
+    "lon": -0.12669146060943604,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:37332200651",
+    "name": "Greggs",
+    "category": "Food",
+    "lat": 51.510708962562205,
+    "lon": -0.1308274269104004,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:48547428761",
+    "name": "Jollibee",
+    "category": "Food",
+    "lat": 51.51068225340234,
+    "lon": -0.12942194938659668,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:48721547931",
+    "name": "Noodle Stop",
+    "category": "Food",
+    "lat": 51.511139645602924,
+    "lon": -0.12882113456726074,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:50608056971",
+    "name": "McDonald's",
+    "category": "Food",
+    "lat": 51.51025490471497,
+    "lon": -0.13081669807434082,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:88689883751",
+    "name": "Slim Chickens",
+    "category": "Food",
+    "lat": 51.51105951883386,
+    "lon": -0.12986719608306885,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:88689883771",
+    "name": "West End Food & Drink",
+    "category": "Food",
+    "lat": 51.510749026272606,
+    "lon": -0.13068795204162598,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:139934937011",
+    "name": "Market Place Food Hall Leicester Square",
+    "category": "Food",
+    "lat": 51.510785751309555,
+    "lon": -0.12948095798492432,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:5595205191",
+    "name": "Pret A Manger",
+    "category": "Food",
+    "lat": 51.507313435079965,
+    "lon": -0.12855291366577148,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:24373823071",
+    "name": "Tortilla",
+    "category": "Food",
+    "lat": 51.50817820011784,
+    "lon": -0.12656807899475098,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:91223464801",
+    "name": "Pret A Manger",
+    "category": "Food",
+    "lat": 51.508228282532286,
+    "lon": -0.1299905776977539,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:688079542",
+    "name": "McDonald's",
+    "category": "Food",
+    "lat": 51.508852638677894,
+    "lon": -0.12450277805328369,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:715625662",
+    "name": "itsu",
+    "category": "Food",
+    "lat": 51.50881591208264,
+    "lon": -0.12461543083190918,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:8213440391",
+    "name": "Poke House",
+    "category": "Food",
+    "lat": 51.51108288915606,
+    "lon": -0.12569904327392578,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:8213440511",
+    "name": "Yolé",
+    "category": "Food",
+    "lat": 51.511079550539336,
+    "lon": -0.1257634162902832,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:23769188981",
+    "name": "Subway",
+    "category": "Food",
+    "lat": 51.508932769328425,
+    "lon": -0.1256883144378662,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:24070757231",
+    "name": "Old Chang Kee",
+    "category": "Food",
+    "lat": 51.51120641780278,
+    "lon": -0.12565076351165771,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:139167211521",
+    "name": "Chill Since 1993",
+    "category": "Food",
+    "lat": 51.51107287330515,
+    "lon": -0.1259082555770874,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:688079722",
+    "name": "Five Guys",
+    "category": "Food",
+    "lat": 51.50856884149056,
+    "lon": -0.12439548969268799,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:5733208941",
+    "name": "Upper Crust",
+    "category": "Food",
+    "lat": 51.507894398729434,
+    "lon": -0.125044584274292,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:25400832341",
+    "name": "Marugame Udon",
+    "category": "Food",
+    "lat": 51.50871574849057,
+    "lon": -0.1256883144378662,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  },
+  {
+    "id": "osm:43299627461",
+    "name": "Krispy Kreme",
+    "category": "Food",
+    "lat": 51.50807469628688,
+    "lon": -0.12523233890533447,
+    "source": "OpenStreetMap · OpenFreeMap tiles"
+  }
+]

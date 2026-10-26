@@ -1,0 +1,19 @@
+{
+  "query": "London",
+  "endpoint": "https://photon.komoot.io",
+  "labels": [
+    "London, Westminster, England, United Kingdom",
+    "London, Ontario, Canada",
+    "London, England, United Kingdom",
+    "London, Kentucky, United States",
+    "London, Ohio, United States"
+  ],
+  "selected": "London, Westminster, England, United Kingdom",
+  "firstCoordinates": [
+    -0.1277653,
+    51.5074456
+  ],
+  "productionProvider": true,
+  "hardcodedResults": false,
+  "capturedAtUtc": "2026-10-23T22:16:58Z"
+}

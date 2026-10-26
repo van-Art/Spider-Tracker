@@ -1,0 +1,12 @@
+    10-23 21:57:22.524: gps provider -registration 10254/com.spidertracker.app/44340A0B
+    10-23 21:57:22.524: gps provider request = ProviderRequest[OFF]
+    10-23 21:57:23.819: gps provider +registration 10254/com.spidertracker.app/E12E4EC9 -> Request[@+1s0ms HIGH_ACCURACY, WorkSource{10254 com.spidertracker.app}]
+    10-23 21:57:23.819: gps provider request = ProviderRequest[@+1s0ms, HIGH_ACCURACY, WorkSource{10254 com.spidertracker.app}]
+    10-23 21:57:27.873: gps provider delivered location[1] to 10254/com.spidertracker.app/E12E4EC9
+    10-23 21:57:27.874: gps provider -registration 10254/com.spidertracker.app/E12E4EC9
+    10-23 21:57:27.874: gps provider request = ProviderRequest[OFF]
+    10-23 22:07:25.908: gps provider +registration 10257/com.spidertracker.app/DFB9B607 -> Request[@+1s0ms HIGH_ACCURACY, WorkSource{10257 com.spidertracker.app}]
+    10-23 22:07:25.909: gps provider request = ProviderRequest[@+1s0ms, HIGH_ACCURACY, WorkSource{10257 com.spidertracker.app}]
+    10-23 22:07:30.244: gps provider delivered location[1] to 10257/com.spidertracker.app/DFB9B607
+    10-23 22:07:30.246: gps provider -registration 10257/com.spidertracker.app/DFB9B607
+    10-23 22:07:30.246: gps provider request = ProviderRequest[OFF]

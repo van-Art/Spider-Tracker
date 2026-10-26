@@ -1,0 +1,2 @@
+10-24 21:55:46.795   730   764 I ActivityManager: Killing 25100:com.spidertracker.app/u0a332 (adj 905): remove task
+10-24 21:55:48.535   730   771 I ActivityManager: Start proc 25593:com.spidertracker.app/u0a332 for next-top-activity {com.spidertracker.app/com.spidertracker.app.MainActivity}

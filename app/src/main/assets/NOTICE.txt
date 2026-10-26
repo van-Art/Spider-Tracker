@@ -1,0 +1,33 @@
+Spider Tracker · Phase 2 independent native reconstruction
+
+This application contains original scanner/mascot/marker/frame graphics and
+original mock observations. It is not affiliated with the reference website,
+Sony Pictures, Marvel or Samsung. No reference-site artwork is packaged.
+
+Pixelify Sans: SIL Open Font License 1.1. See PixelifySans-OFL.txt.
+Source: https://github.com/google/fonts/tree/main/ofl/pixelifysans
+
+Bundled world geometries: Natural Earth 1:110m countries, public domain.
+https://www.naturalearthdata.com/about/terms-of-use/
+Snapshot source: https://github.com/nvkelso/natural-earth-vector
+
+Online basemap data: © OpenStreetMap contributors, ODbL.
+https://www.openstreetmap.org/copyright
+Vector tile service: OpenFreeMap, https://openfreemap.org/
+Tile schema and cartographic processing: © OpenMapTiles, https://www.openmaptiles.org/
+The basemap falls back to the bundled Natural Earth world geometry offline;
+street detail and label glyphs require a network connection or renderer cache.
+
+MapLibre Native: BSD 2-Clause License.
+https://github.com/maplibre/maplibre-native/blob/main/LICENSE.md
+AndroidX and Kotlin: Apache License 2.0.
+
+Global attraction overview and optional country packs: Wikidata structured data,
+CC0 1.0 public domain. Per-record entity URL, revision and modification timestamp
+are retained. Editorial selection/category labels do not imply complete coverage.
+https://www.wikidata.org/wiki/Wikidata:Licensing
+https://creativecommons.org/publicdomain/zero/1.0/
+
+GPS, routing, backend reporting, remote sightings, push and production video
+services are not implemented in Phase 2. The target control centers a fixed
+demo neighborhood; it does not read the user's location.

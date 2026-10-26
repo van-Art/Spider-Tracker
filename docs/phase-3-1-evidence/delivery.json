@@ -1,0 +1,171 @@
+{
+  "apk": "C:\\Users\\Vahram\\Desktop\\Spider-Tracker\\dist\\spider-tracker-phase3-1-debug.apk",
+  "bytes": 60737485,
+  "sha256": "ba26296bcbd84d583653cfd47211148a1c2d21c2c76679654eadb79fc1438ddc",
+  "tests": {
+    "unit": 18,
+    "android": 25
+  },
+  "lintErrors": 0,
+  "lintWarnings": 12,
+  "assets": [
+    {
+      "file": "confirmed_sightings_button.png",
+      "pixels": [
+        57,
+        43
+      ],
+      "sha256": "a0dcc21adf4ea5f1f4d149dccbc6d1cc8563f3880197090eb9d982ae275cc6a1"
+    },
+    {
+      "file": "confirmed_sightings_location.png",
+      "pixels": [
+        34,
+        34
+      ],
+      "sha256": "44013fc45b0e730e42ceee2c84074dcdb73d83e38e6ebd3622038b64d84e11b1"
+    },
+    {
+      "file": "main_point_location.png",
+      "pixels": [
+        34,
+        34
+      ],
+      "sha256": "62b0262ec40ca31aee5262a280dccb75765e4fd043e71197b6205427c6dd44e6"
+    },
+    {
+      "file": "off_button.png",
+      "pixels": [
+        57,
+        43
+      ],
+      "sha256": "4e7c883dd7751c70aba4d12ef56ef8e544cde2ff2f39e569e3d8abc96ce742fb"
+    },
+    {
+      "file": "rumored_sightings_button.png",
+      "pixels": [
+        57,
+        43
+      ],
+      "sha256": "8b2822c3e589f02aaf308bcdb15845f718946cd9754f28893dce1cd64b5ccb79"
+    },
+    {
+      "file": "rumored_sightings_location.png",
+      "pixels": [
+        34,
+        34
+      ],
+      "sha256": "d2d43c218e6089e2b0e067644f6d649f4356a7cacfe9ce1d0f10d69531d638b1"
+    },
+    {
+      "file": "search_bar.png",
+      "pixels": [
+        527,
+        40
+      ],
+      "sha256": "17e06806ba8f4294a349b4e9c6b931d5a7b7e9003237eef5c941d8a314d0342b"
+    },
+    {
+      "file": "search_button.png",
+      "pixels": [
+        54,
+        41
+      ],
+      "sha256": "7108868e231263846620bc5da015abc8de6692aa56ad7c73439d56d6ebdc29d9"
+    },
+    {
+      "file": "center.png",
+      "pixels": [
+        24,
+        24
+      ],
+      "sha256": "afba8b80cfd557523b54420fe31bd3b032569fcc718d31999df134b34f871ac0"
+    },
+    {
+      "file": "left_up_logo.png",
+      "pixels": [
+        62,
+        64
+      ],
+      "sha256": "83fae1f7797d194ab8a278462154dcee06ae9fd0472f49fc0347b30a959f9688"
+    },
+    {
+      "file": "right_up_logo.png",
+      "pixels": [
+        64,
+        64
+      ],
+      "sha256": "a25accf4959ee887cf1e09577f08173e1d86bdfaf3cc616c02897c082a08a24a"
+    },
+    {
+      "file": "spider_sprite_sheet.png",
+      "pixels": [
+        2048,
+        43
+      ],
+      "sha256": "b32d0c61dc4d9434999ef718068f4f1ccb2419e9efc3b9b6f53f16d7520a9793"
+    },
+    {
+      "file": "tracker_logo.png",
+      "pixels": [
+        280,
+        47
+      ],
+      "sha256": "f8fd6f32db3928f3cc24c21f7a7643aa95194fd288a9a415c90e149222749487"
+    },
+    {
+      "file": "zoom_to_global.png",
+      "pixels": [
+        24,
+        24
+      ],
+      "sha256": "858cf1ef79e57402bb54275db61e1767a7b039dff6028140b42bd5c8a6896b52"
+    }
+  ],
+  "realOsmReceiptRecords": 30,
+  "densityTest": {
+    "inputReports": 1000,
+    "visibleClusters": 1,
+    "settleMs": 478
+  },
+  "historicalApksPreserved": true,
+  "sourceSha256": {
+    "app\\src\\main\\AndroidManifest.xml": "1f7f09f443a3fa4f03c26b2512361ff47acfc66cf93f40d912d6d08042e9539f",
+    "app\\src\\androidTest\\java\\com\\spidertracker\\app\\GeocoderTest.kt": "bc61b4dedfbe2f43446073ad19334aff55a3674d97491f9e1a0f74b57504a7af",
+    "app\\src\\androidTest\\java\\com\\spidertracker\\app\\MapLayerInteractionTest.kt": "3a986ee141877d99557ad55907fe79fa18aecfcab13fc4bdd5db678c35a6eb62",
+    "app\\src\\androidTest\\java\\com\\spidertracker\\app\\PixelAssetsTest.kt": "3cd2c05c2f8608f1d8a55d86a67748d156d081736664cf9d063f251516c17bca",
+    "app\\src\\androidTest\\java\\com\\spidertracker\\app\\TrackerInteractionTest.kt": "e2ca61f2e1f188666b83fc961c6ccb6ddfead99f8c14eecc79c2335de3a13a95",
+    "app\\src\\main\\assets\\tracker-style.json": "940fcddecc4e17f225c4dc8bd239e7ccf2f21a4692149cceec174524131a0797",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\AddressSearch.kt": "94b48f942c4db5c206a76da4738ca39616f5b3d7ec1bd2c6ea1d374598a8d35b",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\AddressSearchUi.kt": "cccf7dadf58bbfb1666bf8cc4ba51d6371a194bfddd4567498bc870ad6ea525d",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\DeviceLocation.kt": "f4d61afc321d37c34720de226785805d1dbf3a5c078412d6f4fb41c88d45a29e",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\MainActivity.kt": "9e20c4aba8575a25120fa30394d1b25cb99d484edb1cf14cf143c05d5e03fc3d",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\MapLayers.kt": "6fc84fb01eaa31d53639aedc1852c1c02a5eb1bb26fd168cb232bbd82b07c0d1",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\MapLayerUi.kt": "a4154446e7586c30c9ea548fdcd9a803f8126ccd4536e263bf4274456347d2fb",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\MapRenderer.kt": "e476097d2800ae7981d93de09c766391f9b4f4ec5791a3aee6e663b12c87eeb4",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\SuppliedArt.kt": "68a66b8d0c10a8858cdc1b570ea919d4cba5c0fc28f8c78ac50c2d5d67b3d338",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerArt.kt": "6d27963c8d714fc4e6a0f803687b9f1ea5cc4a1c86135da649b59d9788ad559c",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerModel.kt": "c3bddec8bfaefa6e8735e26413f399b9e8330ed5919fdbc92eada03177db72a0",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerPanels.kt": "1234f546cd7ef1d89dd477f4171c776df29bb32e8abed764baa4d5b2021a0a93",
+    "app\\src\\main\\java\\com\\spidertracker\\app\\TrackerScreen.kt": "1547e5a020c58c5ecd8669002cf8d5b5282bd7d1154c11e8f67d8e2ae81b7f24",
+    "app\\src\\main\\res\\drawable\\ic_tracker.xml": "b3f6eacd44f3834b00c4fd8a4ce51c9dc0a5cd73516cc0267fecf4888d52236c",
+    "app\\src\\main\\res\\drawable-nodpi\\center.png": "afba8b80cfd557523b54420fe31bd3b032569fcc718d31999df134b34f871ac0",
+    "app\\src\\main\\res\\drawable-nodpi\\confirmed_sightings_button.png": "a0dcc21adf4ea5f1f4d149dccbc6d1cc8563f3880197090eb9d982ae275cc6a1",
+    "app\\src\\main\\res\\drawable-nodpi\\confirmed_sightings_location.png": "44013fc45b0e730e42ceee2c84074dcdb73d83e38e6ebd3622038b64d84e11b1",
+    "app\\src\\main\\res\\drawable-nodpi\\left_up_logo.png": "83fae1f7797d194ab8a278462154dcee06ae9fd0472f49fc0347b30a959f9688",
+    "app\\src\\main\\res\\drawable-nodpi\\main_point_location.png": "62b0262ec40ca31aee5262a280dccb75765e4fd043e71197b6205427c6dd44e6",
+    "app\\src\\main\\res\\drawable-nodpi\\off_button.png": "4e7c883dd7751c70aba4d12ef56ef8e544cde2ff2f39e569e3d8abc96ce742fb",
+    "app\\src\\main\\res\\drawable-nodpi\\right_up_logo.png": "a25accf4959ee887cf1e09577f08173e1d86bdfaf3cc616c02897c082a08a24a",
+    "app\\src\\main\\res\\drawable-nodpi\\rumored_sightings_button.png": "8b2822c3e589f02aaf308bcdb15845f718946cd9754f28893dce1cd64b5ccb79",
+    "app\\src\\main\\res\\drawable-nodpi\\rumored_sightings_location.png": "d2d43c218e6089e2b0e067644f6d649f4356a7cacfe9ce1d0f10d69531d638b1",
+    "app\\src\\main\\res\\drawable-nodpi\\search_bar.png": "17e06806ba8f4294a349b4e9c6b931d5a7b7e9003237eef5c941d8a314d0342b",
+    "app\\src\\main\\res\\drawable-nodpi\\search_button.png": "7108868e231263846620bc5da015abc8de6692aa56ad7c73439d56d6ebdc29d9",
+    "app\\src\\main\\res\\drawable-nodpi\\spider_sprite_sheet.png": "b32d0c61dc4d9434999ef718068f4f1ccb2419e9efc3b9b6f53f16d7520a9793",
+    "app\\src\\main\\res\\drawable-nodpi\\tracker_logo.png": "f8fd6f32db3928f3cc24c21f7a7643aa95194fd288a9a415c90e149222749487",
+    "app\\src\\main\\res\\drawable-nodpi\\zoom_to_global.png": "858cf1ef79e57402bb54275db61e1767a7b039dff6028140b42bd5c8a6896b52",
+    "app\\src\\main\\res\\values\\styles.xml": "18d3d512b3279b426a46bfe862aa9ea963a01ee3b93c8b784c20f721e4c6d8d3",
+    "app\\src\\test\\java\\com\\spidertracker\\app\\MapLayersTest.kt": "65b53899d31c74b85be691ca1b18eea17debd4296fe7d6f1ac46a9f414f5b2ae",
+    "app\\src\\test\\java\\com\\spidertracker\\app\\Phase3StateTest.kt": "2e4844a273cd879622a319110fff32f78e55a3a6b43ebb3951d153af2f240e59",
+    "app\\src\\test\\java\\com\\spidertracker\\app\\TrackerStateTest.kt": "28b63927ccda37c84055dea9bf93e047cc792449905cbf38c96651d25f1a2b3a"
+  }
+}

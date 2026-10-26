@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="12" failures="0" errors="0" skipped="0" time="26.595" timestamp="2026-10-23T22:14:32" hostname="localhost">
+  <testsuite name="com.spidertracker.app.GeocoderTest" tests="2" failures="0" errors="0" skipped="0" time="1.118" timestamp="2026-10-23T22:14:32" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="realProviderCodeCachesNormalizesAndThrottlesRequests" classname="com.spidertracker.app.GeocoderTest" time="1.116" />
+    <testcase name="parserValidatesGeometryCoordinatesAndLabels" classname="com.spidertracker.app.GeocoderTest" time="0.002" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.TrackerInteractionTest" tests="10" failures="0" errors="0" skipped="0" time="24.793" timestamp="2026-10-23T22:14:32" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="mapLibreStyleLoadsAndNativeMapRespondsToPan" classname="com.spidertracker.app.TrackerInteractionTest" time="2.334" />
+    <testcase name="assetsDecodeAtNativeResolutionAndSpriteAdvances" classname="com.spidertracker.app.TrackerInteractionTest" time="2.462" />
+    <testcase name="retainedFiltersLogAndMediaStillWork" classname="com.spidertracker.app.TrackerInteractionTest" time="1.506" />
+    <testcase name="rumorMediaAndCloseClearTheMessage" classname="com.spidertracker.app.TrackerInteractionTest" time="2.925" />
+    <testcase name="submittedSearchResultsMoveCameraAndDrawDestination" classname="com.spidertracker.app.TrackerInteractionTest" time="4.514" />
+    <testcase name="keyboardKeepsInputVisibleAndResizesTheMap" classname="com.spidertracker.app.TrackerInteractionTest" time="2.621" />
+    <testcase name="foregroundAnimationClockPausesAndResumes" classname="com.spidertracker.app.TrackerInteractionTest" time="1.743" />
+    <testcase name="radarUsesGrantedDeviceProviderAndGlobalResetsCamera" classname="com.spidertracker.app.TrackerInteractionTest" time="1.939" />
+    <testcase name="unavailableSearchPreservesEditableFieldAndDismissal" classname="com.spidertracker.app.TrackerInteractionTest" time="3.093" />
+    <testcase name="startupUsesSuppliedArtAndRemovedControlsStayAbsent" classname="com.spidertracker.app.TrackerInteractionTest" time="1.656" />
+  </testsuite>
+</testsuites>

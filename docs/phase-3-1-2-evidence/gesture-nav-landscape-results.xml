@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="1" failures="0" errors="0" skipped="0" time="9.677" timestamp="2026-10-24T07:51:47" hostname="localhost">
+  <testsuite name="com.spidertracker.app.TrackerInteractionTest" tests="1" failures="0" errors="0" skipped="0" time="8.85" timestamp="2026-10-24T07:51:47" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="landscapeAccessoryImeKeepsNativeMapAndSearchStable" classname="com.spidertracker.app.TrackerInteractionTest" time="8.85" />
+  </testsuite>
+</testsuites>

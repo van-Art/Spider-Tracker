@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="6" failures="0" errors="0" skipped="0" time="35.9" timestamp="2026-10-24T21:38:49" hostname="localhost">
+  <testsuite name="com.spidertracker.app.GeographicRadarTest" tests="4" failures="0" errors="0" skipped="0" time="21.874" timestamp="2026-10-24T21:38:49" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="londonLayersUseGeographicRecordsAndDoNotMoveCamera" classname="com.spidertracker.app.GeographicRadarTest" time="6.269" />
+    <testcase name="acceptedGpsFixChangesOriginAndFailureReturnsToMapMode" classname="com.spidertracker.app.GeographicRadarTest" time="8.662" />
+    <testcase name="rangeCyclesAndPersistsWithoutChangingMapAndStatusUsesLatestMode" classname="com.spidertracker.app.GeographicRadarTest" time="3.531" />
+    <testcase name="physicalRadarDotOpensMatchingAttractionDetails" classname="com.spidertracker.app.GeographicRadarTest" time="3.412" />
+  </testsuite>
+  <testsuite name="com.spidertracker.app.TrackerInteractionTest" tests="2" failures="0" errors="0" skipped="0" time="13.296" timestamp="2026-10-24T21:38:49" hostname="localhost">
+    <properties>
+      <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="landscapeAccessoryImeKeepsNativeMapAndSearchStable" classname="com.spidertracker.app.TrackerInteractionTest" time="6.662" />
+    <testcase name="keyboardOverlaysWithoutChangingNativeViewportOrCamera" classname="com.spidertracker.app.TrackerInteractionTest" time="6.634" />
+  </testsuite>
+</testsuites>
