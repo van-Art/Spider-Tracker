@@ -8,6 +8,7 @@ import android.os.SystemClock
 import android.view.View
 import android.view.ViewGroup
 import androidx.compose.ui.test.*
+import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.test.platform.app.InstrumentationRegistry
 import kotlinx.coroutines.*
@@ -59,7 +60,7 @@ class Phase41IntegrationTest {
             inject(manager,a,30000)
             val before=compose.activity.tracker.camera
             compose.onNodeWithTag("map-center").performClick()
-            compose.onNodeWithTag("location-loading",useUnmergedTree=true).assertExists()
+            compose.onNodeWithTag("map-center").assert(SemanticsMatcher.expectValue(SemanticsProperties.StateDescription,"Obtaining device location"))
             SystemClock.sleep(600)
             compose.runOnIdle {assertTrue(compose.activity.tracker.locating);assertEquals(before,compose.activity.tracker.camera)}
             inject(manager,a)

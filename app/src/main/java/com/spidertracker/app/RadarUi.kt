@@ -89,9 +89,6 @@ private val RadarTouchShape=GenericShape {size,_->
         }
         Box(Modifier.offset(m.locationX.dp,m.locationY.dp).size(48.dp).clickable(role=Role.Button,onClick=onLocation).semantics {contentDescription="Current location";stateDescription=if(vm.locating)"Obtaining device location" else "Ready"}.testTag("map-center"),contentAlignment=Alignment.Center) {
             SuppliedImage(R.drawable.center,null,Modifier.offset(y=(m.radarCenterY+m.radarSize*.405f-m.locationY-24).dp).size(28.dp))
-            if(vm.locating)Canvas(Modifier.size(36.dp).testTag("location-loading")) {
-                drawArc(Ink.Cyan,(time()*180)%360,250f,false,style=androidx.compose.ui.graphics.drawscope.Stroke(2.dp.toPx()))
-            }
         }
     }
 }
