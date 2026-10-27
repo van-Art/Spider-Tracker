@@ -67,7 +67,7 @@ val MarkerEffectsKey=SemanticsPropertyKey<MarkerEffectsState>("MarkerEffects")
         countPaint.textSize=8.dp.toPx().roundToInt().toFloat()
         val bounds=pixelBounds(green.width,green.height,side,side)
         ordered.forEach {point->
-            if(point.id=="destination")return@forEach
+            if(point.id=="destination" || point.id=="user")return@forEach
             val bitmap=when(point.kind){MarkerKind.Place->green;MarkerKind.Alert->red;MarkerKind.User->user}
             val x=(point.x-bounds.width/2f).roundToInt();val y=(point.y-bounds.height/2f).roundToInt()
             drawImage(bitmap,srcSize=IntSize(bitmap.width,bitmap.height),dstOffset=IntOffset(x,y),dstSize=IntSize(bounds.width,bounds.height),filterQuality=FilterQuality.None)
