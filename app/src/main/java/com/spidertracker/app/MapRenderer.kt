@@ -11,9 +11,11 @@ import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.asAndroidBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.viewinterop.AndroidView
+import androidx.core.graphics.scale
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
@@ -31,6 +33,7 @@ import org.maplibre.android.style.layers.PropertyFactory.*
 import org.maplibre.android.style.layers.SymbolLayer
 import org.maplibre.android.style.layers.CircleLayer
 import org.maplibre.android.style.layers.LineLayer
+import org.maplibre.android.style.layers.FillLayer
 import org.maplibre.android.style.sources.GeoJsonSource
 import org.maplibre.android.style.sources.GeoJsonOptions
 import org.maplibre.android.style.sources.VectorSource
@@ -47,6 +50,22 @@ import org.maplibre.geojson.Feature
 import org.maplibre.geojson.FeatureCollection
 import org.maplibre.geojson.Point
 import org.maplibre.geojson.LineString
+import org.maplibre.geojson.Polygon
+import kotlin.math.*
+
+internal fun userLocationFeatures(fix:DeviceFix?):FeatureCollection {
+    if(fix==null)return FeatureCollection.fromFeatures(emptyList())
+    val marker=Feature.fromGeometry(Point.fromLngLat(fix.lon,fix.lat)).apply {addStringProperty("id","user")}
+    val latitude=Math.toRadians(fix.lat)
+    val radius=fix.accuracy/6371000.0
+    val ring=List(64) {index->
+        val bearing=2*PI*index/64
+        val lat=asin((sin(latitude)*cos(radius)+cos(latitude)*sin(radius)*cos(bearing)).coerceIn(-1.0,1.0))
+        val lon=fix.lon+Math.toDegrees(atan2(sin(bearing)*sin(radius)*cos(latitude),cos(radius)-sin(latitude)*sin(lat)))
+        Point.fromLngLat(lon,Math.toDegrees(lat))
+    }
+    return FeatureCollection.fromFeatures(listOf(marker,Feature.fromGeometry(Polygon.fromLngLats(listOf(ring+ring.first())))))
+}
 
 data class MapScene(val pins:List<TrackerPin>,val camera:CameraTarget,val selected:TrackerPin?,val mobile:Boolean,val destination:AddressResult?=null,
     val markers:List<LayerMarker> = emptyList(),val placesEnabled:Boolean=false,val userFix:DeviceFix?=null,
@@ -72,6 +91,7 @@ class MapLibreRenderer : TrackerMapRenderer {
         val context=LocalContext.current
         val lifecycle=LocalLifecycleOwner.current.lifecycle
         val density=LocalDensity.current.density
+        val userIcon=suppliedBitmap(R.drawable.main_point_location).asAndroidBitmap()
         val latestScene by rememberUpdatedState(scene)
         val pinCallback by rememberUpdatedState(onPin)
         val backgroundCallback by rememberUpdatedState(onBackground)
@@ -173,6 +193,11 @@ class MapLibreRenderer : TrackerMapRenderer {
                 }
                 style.addSource(GeoJsonSource("destination",destinationFeatures(latestScene.destination)))
                 style.addLayer(CircleLayer("destination-marker","destination").withProperties(circleRadius(7f),circleColor("#00d7fa"),circleStrokeColor("#071623"),circleStrokeWidth(3f)))
+                val side=(34*density).roundToInt()
+                val bounds=pixelBounds(userIcon.width,userIcon.height,side,side)
+                val userBitmap=userIcon.scale(bounds.width,bounds.height,false)
+                userBitmap.density=(160*density).roundToInt()
+                style.addImage("user-location",userBitmap)
                 addSmartLayers(style)
                 loaded=true;project();projectRadar();work.projectionPending=true
             }
@@ -257,18 +282,17 @@ class MapLibreRenderer : TrackerMapRenderer {
                 listOf(MarkerKind.Place to "places",MarkerKind.Alert to "alerts").forEach {(kind,id)->
                     style.getSourceAs<GeoJsonSource>(id)?.setGeoJson(layerFeatures(scene.markers.filter {it.kind==kind}))
                 }
-                style.getSourceAs<GeoJsonSource>("user")?.setGeoJson(userFeatures(scene.userFix))
-                val radius=scene.userFix?.let {it.accuracy/(78271.51696*kotlin.math.cos(Math.toRadians(it.lat)).coerceAtLeast(.00001))} ?: 0.0
-                style.getLayerAs<CircleLayer>("user-accuracy")?.setProperties(circleRadius(interpolate(exponential(2),zoom(),stop(0,radius),stop(22,radius*4194304))))
+                style.getSourceAs<GeoJsonSource>("user")?.setGeoJson(userLocationFeatures(scene.userFix))
                 work.projectionPending=true;work.idleRefreshPending=true;map?.triggerRepaint();settleSources()
                 projectRadar()
             }
         }
         LaunchedEffect(loaded,scene.userFix!=null,scene.reducedMotion,scene.capture,lifecycle) {
+            map?.style?.getLayerAs<FillLayer>("user-accuracy")?.setProperties(fillOpacity(.1f))
             if(loaded && scene.userFix!=null && !scene.reducedMotion && !scene.capture)lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {
                 while(true) {
                     val opacity=(.09+.035*kotlin.math.sin(SystemClock.elapsedRealtime()/450.0)).toFloat()
-                    map?.style?.getLayerAs<CircleLayer>("user-accuracy")?.setProperties(circleOpacity(opacity))
+                    map?.style?.getLayerAs<FillLayer>("user-accuracy")?.setProperties(fillOpacity(opacity))
                     delay(90)
                 }
             }
@@ -280,9 +304,9 @@ class MapLibreRenderer : TrackerMapRenderer {
                 work.appliedCamera=scene.camera
                 val position=current.cameraPosition
                 val zoom=scene.camera.zoom.coerceIn(current.minZoomLevel,current.maxZoomLevel)
-                if(position.target!=LatLng(scene.camera.lat,scene.camera.lon) || kotlin.math.abs(position.zoom-zoom)>.001) {
+                if(position.target!=LatLng(scene.camera.lat,scene.camera.lon) || kotlin.math.abs(position.zoom-zoom)>.001 || position.bearing!=0.0 || position.tilt!=0.0 || position.padding?.any {it!=0.0}==true) {
                     current.cancelTransitions()
-                    current.animateCamera(CameraUpdateFactory.newCameraPosition(CameraPosition.Builder().target(LatLng(scene.camera.lat,scene.camera.lon)).zoom(zoom).bearing(0.0).tilt(0.0).build()),1500)
+                    current.animateCamera(CameraUpdateFactory.newCameraPosition(CameraPosition.Builder().target(LatLng(scene.camera.lat,scene.camera.lon)).zoom(zoom).bearing(0.0).tilt(0.0).padding(0.0,0.0,0.0,0.0).build()),1500)
                 }
             }
         }
@@ -303,21 +327,21 @@ class MapLibreRenderer : TrackerMapRenderer {
             val options=if(id=="user")GeoJsonOptions() else GeoJsonOptions().withCluster(true).withClusterRadius(42).withClusterMaxZoom(15)
             style.addSource(GeoJsonSource(id,FeatureCollection.fromFeatures(emptyList()),options))
         }
-        style.addLayer(CircleLayer("user-accuracy","user").withProperties(circleColor("#00d7fa"),circleOpacity(.1f),circleStrokeColor("#00d7fa"),circleStrokeWidth(1f),circleStrokeOpacity(.25f),circlePitchScale("map")))
-        style.addLayer(CircleLayer("user-dot","user").withProperties(circleRadius(6f),circleColor("#00d7fa"),circleStrokeWidth(2f),circleStrokeColor("#04101f")))
+        style.addLayer(FillLayer("user-accuracy","user").withFilter(eq(geometryType(),"Polygon")).withProperties(fillColor("#00d7fa"),fillOpacity(.1f)))
+        style.addLayer(LineLayer("user-accuracy-outline","user").withFilter(eq(geometryType(),"Polygon")).withProperties(lineColor("#00d7fa"),lineWidth(1f),lineOpacity(.25f)))
+        // The native sprite and accuracy area share a source and render frame.
+        style.addLayer(SymbolLayer("user-marker","user").withFilter(eq(geometryType(),"Point")).withProperties(
+            iconImage("user-location"),iconAnchor("center"),iconAllowOverlap(true),iconIgnorePlacement(true),iconPitchAlignment("viewport"),iconRotationAlignment("viewport")))
         listOf("places" to "#45d26a","alerts" to "#ff4d50","user" to "#00d7fa","destination" to "#00d7fa").forEach {(id,color)->
             if(id=="places" || id=="alerts")style.addLayer(CircleLayer("$id-cluster-glow",id).withFilter(has("point_count")).withProperties(
                 circleRadius(21f),circleColor(color),circleOpacity(.12f),circleStrokeWidth(1f),circleStrokeColor(color),circleStrokeOpacity(.3f),
                 circlePitchAlignment("viewport"),circlePitchScale("viewport")))
-            if(id!="destination")style.addLayer(CircleLayer(if(id=="user")"user-hit" else "$id-hits",id).withProperties(circleRadius(17f),circleOpacity(0f)))
+            if(id!="destination")style.addLayer(CircleLayer(if(id=="user")"user-hit" else "$id-hits",id).withFilter(eq(geometryType(),"Point")).withProperties(circleRadius(17f),circleOpacity(0f)))
         }
     }
     private fun layerFeatures(markers:List<LayerMarker>)=FeatureCollection.fromFeatures(markers.map {
         Feature.fromGeometry(Point.fromLngLat(it.lon,it.lat)).apply {addStringProperty("id",it.id);addBooleanProperty("demo",it.demo)}
     })
-    private fun userFeatures(fix:DeviceFix?)=FeatureCollection.fromFeatures(fix?.let {
-        listOf(Feature.fromGeometry(Point.fromLngLat(it.lon,it.lat)).apply {addStringProperty("id","user")})
-    } ?: emptyList())
     private fun destinationFeatures(destination:AddressResult?)=FeatureCollection.fromFeatures(destination?.let {
         listOf(Feature.fromGeometry(Point.fromLngLat(it.lon,it.lat)))
     } ?: emptyList())
