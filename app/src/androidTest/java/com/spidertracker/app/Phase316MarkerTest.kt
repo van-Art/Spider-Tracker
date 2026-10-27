@@ -16,6 +16,24 @@ import org.junit.Test
 
 class Phase316MarkerTest {
     @get:Rule val compose=createComposeRule()
+    @Test fun nativeUserHasNoSecondComposeSpriteButKeepsItsPulseAndSemantics() {
+        var id by mutableStateOf("user")
+        compose.setContent {
+            val density=LocalDensity.current.density
+            MapMarkerSprites(listOf(ProjectedMarker(id,MarkerKind.User,60*density,60*density)),
+                Modifier.size(120.dp).background(Color.Black),reducedMotion=true)
+        }
+        val node=compose.onNodeWithTag("map-marker-sprites")
+        val user=node.captureToImage().asAndroidBitmap()
+        assertEquals("user",node.fetchSemanticsNode().config[ProjectedMarkersKey].single().id)
+        assertEquals(setOf(MarkerKind.User),node.fetchSemanticsNode().config[MarkerEffectsKey].visibleKinds)
+        // Destination already omits its sprite; both overlays must contain only the same pulse.
+        compose.runOnIdle {id="destination"}
+        assertTrue(user.sameAs(node.captureToImage().asAndroidBitmap()))
+        compose.runOnIdle {id="cyan"}
+        assertFalse("Test must detect a Compose user bitmap",user.sameAs(node.captureToImage().asAndroidBitmap()))
+    }
+
     @Test fun everyKindAndClusterPulsesBehindUnchangedSpritesAndStopsWhenHidden() {
         var seconds by mutableFloatStateOf(0f)
         var reduced by mutableStateOf(false)

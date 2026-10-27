@@ -38,7 +38,7 @@ class Phase41IntegrationTest {
         var result:MapLibreMap?=null;val ready=CountDownLatch(1)
         compose.runOnIdle {find(compose.activity.window.decorView)!!.getMapAsync {result=it;ready.countDown()}}
         assertTrue(ready.await(5,TimeUnit.SECONDS))
-        compose.waitUntil(10000){result!!.style?.getLayer("user-dot")!=null}
+        compose.waitUntil(10000){result!!.style?.getLayer("user-marker")!=null}
         return result!!
     }
     private fun inject(manager:LocationManager,p:NavPoint,age:Long=0) {
